@@ -4,20 +4,20 @@ date: 2020-11-16 16:26:15
 tags:
 ---
 
-* CS211 TA
+CS211 TA
 - [ ] Lab1 grading
 - [ ] Hw3 Q1 solution
 
-* CS283 Course
+CS283 Course
 - [ ] Proj: button push
 - [ ] Reading
 
-* Research
+Research
 - [ ] Do experiments
 - [ ] Read BO tutorial
 
-* Graduation
+Graduation
 - [ ] Mission book
 
-* Application
+Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
