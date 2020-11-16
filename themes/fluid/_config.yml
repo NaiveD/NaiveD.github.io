@@ -540,7 +540,7 @@ post:
   # 版权声明
   # Copyright
   copyright:
-    enable: true
+    enable: false
     content: 'copyright: Zhai Keyan'
 
   # 文章底部上一篇下一篇功能
