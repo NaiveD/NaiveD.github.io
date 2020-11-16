@@ -13,5 +13,7 @@ categories:
 
 * hexo
 
+* fluid
+    * <https://hexo.fluid-dev.com/docs/>
 
 
