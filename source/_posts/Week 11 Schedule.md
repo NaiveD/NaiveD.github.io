@@ -1,7 +1,8 @@
 ---
 title: Week 11 Schedule
 date: 2020-11-16 16:26:15
-tags:
+categories: Schedule
+tags: Schedule
 ---
 
 CS211 TA
@@ -15,6 +16,7 @@ CS283 Course
 Research
 - [ ] Do experiments
 - [ ] Read BO tutorial
+- [x] Reimbursement
 
 Graduation
 - [ ] Mission book
