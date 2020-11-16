@@ -6,6 +6,6 @@ layout: about
 
 ## About me
 
-Zhai Keyan
+Keyan Zhai
 Shanghaitech University 
 2017 CS Undergraduate
