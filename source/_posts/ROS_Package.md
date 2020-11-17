@@ -24,7 +24,7 @@ my_package/
 ```
 
 ### Packages in a catkin Workspace
-* Using a catkin workspace to work with catkin packages is recommended. Refer to [[ROS Workspace]]
+* Using a catkin workspace to work with catkin packages is recommended. Refer to {% post_link ROS_Workspace %}
 
 * You can also build catkin packages standalone.
 
