@@ -3,7 +3,7 @@ title: Sniper
 date: 2020-11-17 00:26:07
 categories: 
     - Courses
-    - 2020 Fall
+    - Fall 2020s
     - TA
     - CS211
 tags: Computer Architecture

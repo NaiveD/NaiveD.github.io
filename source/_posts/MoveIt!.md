@@ -4,7 +4,7 @@ date: 2020-11-17 13:48:33
 tags: Robotics
 categories:
     - Courses
-    - 2020 Fall
+    - Fall 2020
     - CS283
     - ROS
 ---
