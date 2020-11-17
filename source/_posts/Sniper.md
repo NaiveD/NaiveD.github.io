@@ -18,8 +18,11 @@ tags: Computer Architecture
 ## How to compile Sniper
 
 ### Prerequisites
-    OS: Ubuntu 16.04, 18.04, or 20.04
-    gcc: 7.5.0 or 9.3.0
+
+```shell
+OS: Ubuntu 16.04, 18.04, or 20.04
+gcc: 7.5.0 or 9.3.0
+```
 
 ### Steps
 

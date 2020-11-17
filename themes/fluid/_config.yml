@@ -53,7 +53,7 @@ code:
       # 在链接中挑选 style 填入
       # Select a style in the link
       # See: https://highlightjs.org/static/demo/
-      style: "Github Gist"
+      style: "Hybrid"
 
       # 是否根据 style 改变代码背景色（如果 style 是深色背景别忘了开启此项）
       # If true, the code background will change color based on the style (If style has a dark background, don't forget to true)
@@ -184,7 +184,7 @@ color:
 font:
   font_size: 16px
   font_family:
-  code_font_size: 85%
+  code_font_size: 100%
 
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
@@ -362,8 +362,8 @@ footer:
 
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below
-    pv_format: "总访问量 {} 次"
-    uv_format: "总访客数 {} 人"
+    pv_format: "Total views {}"
+    uv_format: "Total visitors {}"
 
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
@@ -409,7 +409,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "Welcome to Keyan's homepage"
+    text: "Welcome to Keyan's homepage 年轻人要讲武德"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -488,7 +488,7 @@ post:
       # 格式参照 ISO-8601 日期格式化
       # ISO-8601 date format
       # See: http://momentjs.cn/docs/#/parsing/string-format/
-      format: "LL a"
+      format: "LL"
 
     # 字数统计
     # Word count
@@ -496,13 +496,13 @@ post:
       enable: true
       # 显示的文本，{}是数字的占位符（必须包含)，下同
       # Displayed text, {} is a placeholder for numbers (must be included), the same below
-      format: "{} 字"
+      format: "{} words"
 
     # 估计阅读全文需要的时长
     # Estimate the time required to read the full text
     min2read:
       enable: true
-      format: "{} 分钟"
+      format: "{} minutes"
       # 每分钟阅读多少字，如果是技术文章，建议降低
       # Words read per minute
       words: 100
@@ -510,12 +510,12 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: false
+      enable: true
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
       source: "busuanzi"
-      format: "{} 次"
+      format: "{}"
 
   # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
   # Update date is displayed at the beginning of the post. The default date is the update date of the md file, which can be manually specified by `updated` in front-matter (same format as date)
@@ -524,11 +524,11 @@ post:
 
     # 描述文字
     # Descriptive text before date
-    content: 本文最后更新于：
+    content: "Last updated: "
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
-    relative: false
+    relative: true
 
   # 文章右侧目录
   # Table of contents
@@ -586,7 +586,7 @@ post:
   mermaid:
     # 开启后文章默认可用，自定义页面如需使用，需在 Front-matter 中指定 `mermaid: true`
     # If you want to use mermaid on the custom page, you need to set `mermaid: true` in Front-matter
-    enable: false
+    enable: true
 
     # 开启后，只有在文章 Front-matter 里指定 `mermaid: true` 才会在文章页启动公式转换，以便在页面不包含公式时提高加载速度
     # If true, only set `mermaid: true` in Front-matter will enable mermaid, to load faster when the page does not contain mermaid
