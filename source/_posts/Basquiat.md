@@ -18,8 +18,10 @@ categories:
 花了这么多心思，这门课最后当然是拿了`A+`，只不过后来才意识到这是多么可怕的内卷行为😇，以后还是别这么搞了吧。
 
 请欣赏拙作：
-（只能用电脑看，移动端无法显示）
+<!-- （网页版只能用电脑看，移动端请下载） -->
 
 <!-- {% pdf ./Basquiat.pdf %} -->
 
-<object data="./Basquiat.pdf" type="application/pdf" width="100%" height="677px">
+[Basquiat.pdf](https://github.com/NaiveD/NaiveD.github.io/raw/code/source/_posts/Basquiat/Basquiat.pdf)
+
+<!-- <object data="./Basquiat.pdf" type="application/pdf" width="100%" height="677px"> -->

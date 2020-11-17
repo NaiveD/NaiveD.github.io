@@ -9,4 +9,6 @@ categories: Others
 
 太拉了，简历没什么东西能写。。。
 
-<object data="./CV_zky.pdf" type="application/pdf" width="100%" height="677px">
+[CV_zky.pdf](https://github.com/NaiveD/NaiveD.github.io/raw/code/source/_posts/CV/CV_zky.pdf)
+
+<!-- <object data="./CV_zky.pdf" type="application/pdf" width="100%" height="677px"> -->
