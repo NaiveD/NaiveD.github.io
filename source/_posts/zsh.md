@@ -1,15 +1,15 @@
 ---
 title: 设置 zsh
 date: 2020-11-17 10:37:01
-tags: tools
+tags: Tools
 categories:
-    - configuration
+    - Configuration
     - Shell
 ---
 
-## 设置 zsh
+# 设置 zsh
 
-### 安装 zsh
+## 安装 zsh
 
 查看系统里已经安装的shell: `cat /etc/shells`.
 
@@ -41,11 +41,11 @@ Mac默认是安装zsh的，Linux没有装。Ubuntu上安装zsh: `sudo apt-get in
 
 发现zsh已经安装好了。把当前shell改为zsh: `chsh -s /bin/zsh`.
 
-### 安装 oh my zsh
+## 安装 oh my zsh
 
 自动安装: `wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh`
 
-### 配置 zsh
+## 配置 zsh
 
 安装插件
 
