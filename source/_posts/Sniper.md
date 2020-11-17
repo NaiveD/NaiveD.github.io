@@ -9,4 +9,4 @@ categories:
 tags: Computer Architecture
 ---
 
-## Learning Sniper
+# Learning Sniper

@@ -7,7 +7,7 @@ categories:
     - Blog
 ---
 
-## Building Blog
+# Building Blog
 
 * hexo
 
