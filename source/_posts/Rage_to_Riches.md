@@ -4,7 +4,7 @@ date: 2020-6-21 12:38:49
 tags: Arts
 categories:
     - Courses
-    - 2019 Spring 
+    - 2020 Spring 
     - ARTS1405
     - Final Paper
 ---
