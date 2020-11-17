@@ -6,6 +6,7 @@ categories:
     - Courses
     - 2020 Fall
     - CS283
+    - ROS
 ---
 
 ## Learning ROS

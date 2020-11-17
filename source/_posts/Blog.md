@@ -7,13 +7,13 @@ categories:
     - Blog
 ---
 
-## Building my personal website
-
-* Markdown
+## Building Blog
 
 * hexo
 
 * fluid
-    * <https://hexo.fluid-dev.com/docs/>
+    * [fluid 官网](https://fluid-dev.github.io/hexo-fluid-docs/)
 
-
+* Markdown
+  * [Markdown 菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
+  * [数学公式](https://zhuanlan.zhihu.com/p/59412540)
