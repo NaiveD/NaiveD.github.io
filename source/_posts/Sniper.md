@@ -28,10 +28,23 @@ gcc: 7.5.0 or 9.3.0
 
 1. Get Sniper source code.
 2. Input the following commands in the terminal:
+
+**Make sure to use python2**
+
 ```shell
-$ cd $PATH-to-SNIPER 
+$ cd $PATH_TO_SNIPER 
 $ sudo dpkg --add-architecture i386
 $ sudo apt-get install binutils build-essential curl git libboost-dev libbz2-dev libc6:i386 libncurses5:i386 libsqlite3-dev libstdc++6:i386 python wget zlib1g-dev
 $ make
 ```
 
+## Run a program using Sniper
+
+Sniper is an x86 simulator, it can be used to run executables.
+
+Say you have an executable `program1.exe` and a config file `config1.cfg` under the directory at `$PATH_TO_FILE`. Under 
+
+```shell
+$ cd $PATH_TO_SNIPER 
+$ ./run-sniper -c $PATH_TO_FILE/config1.cfg -- $PATH_TO_FILE/program1.exe
+```
