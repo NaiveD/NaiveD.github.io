@@ -13,6 +13,8 @@ CS211 TA
 
 CS283 Course
 - [ ] Proj: button push
+- [ ] HW4
+- [ ] Prepare for Midterm
 - [ ] Reading
 
 Research
@@ -21,7 +23,7 @@ Research
 - [x] Reimbursement
 
 Graduation
-- [ ] Mission book
+- [x] Mission book
 
 Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
