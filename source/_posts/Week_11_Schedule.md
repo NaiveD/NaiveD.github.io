@@ -7,6 +7,8 @@ categories:
 tags: Schedule
 ---
 
+# Week 11 Schedule
+
 CS211 TA
 - [ ] Lab1 grading
 - [ ] Hw3 Q1 solution

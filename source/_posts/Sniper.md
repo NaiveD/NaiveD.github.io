@@ -10,3 +10,25 @@ tags: Computer Architecture
 ---
 
 # Learning Sniper
+
+## What is Sniper
+
+**Sniper** is a next-generation parallel, high-speed and accurate **x86 simulator**. It is written in C.
+
+## How to compile Sniper
+
+### Prerequisites
+    OS: Ubuntu 16.04, 18.04, or 20.04
+    gcc: 7.5.0 or 9.3.0
+
+### Steps
+
+1. Get Sniper source code.
+2. Input the following commands in the terminal:
+```shell
+$ cd $PATH-to-SNIPER 
+$ sudo dpkg --add-architecture i386
+$ sudo apt-get install binutils build-essential curl git libboost-dev libbz2-dev libc6:i386 libncurses5:i386 libsqlite3-dev libstdc++6:i386 python wget zlib1g-dev
+$ make
+```
+
