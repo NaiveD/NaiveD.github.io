@@ -1,5 +1,5 @@
 ---
-title: zsh
+title: 设置 zsh
 date: 2020-11-17 10:37:01
 tags: tools
 categories:
