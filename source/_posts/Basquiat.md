@@ -9,4 +9,16 @@ categories:
     - Final Paper
 ---
 
-{% pdf ./Basquiat.pdf %}
+# 巴斯奎特个案研究
+
+《现代艺术导论》课程的期末论文，查阅了大量原始英文资料，看的头疼。还看了个大概80分钟的原版纪录片 {% post_link Rage_to_Riches %}, 写了一万多字的整理。
+
+最后论文是一天糊出来的，要求三千字，写了将近八千字。
+
+花了这么多心思，这门课最后当然是拿了`A+`，只不过后来才意识到这是多么可怕的内卷行为😇，以后还是别这么搞了吧。
+
+请欣赏拙作：
+
+<!-- {% pdf ./Basquiat.pdf %} -->
+
+<object data="./Basquiat.pdf" type="application/pdf" width="100%" height="677px">
