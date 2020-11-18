@@ -11,6 +11,9 @@ tags: Schedule
 
 CS211 TA
 - [ ] Lab1 grading
+- [ ] Quiz7 grading
+- [ ] Lab3 check
+- [ ] Midterm solution
 - [ ] Hw3 Q1 solution
 
 CS283 Course
