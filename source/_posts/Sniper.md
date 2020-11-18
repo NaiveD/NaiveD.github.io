@@ -43,7 +43,7 @@ $ make
 
 Sniper is an x86 simulator, it can be used to run executables.
 
-Say you have an executable `program1.exe` and a config file `config1.cfg` under the directory at `$PATH_TO_FILE`. Under 
+Say you have an executable `program1.exe` and a config file `config1.cfg` under the directory at `$PATH_TO_FILE`. You can run the executable by Sniper with the following commands:
 
 ```shell
 $ cd $PATH_TO_SNIPER 

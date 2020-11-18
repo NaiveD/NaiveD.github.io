@@ -17,9 +17,9 @@ categories:
 Optimal replacement is to evict a cache block with the longest reuse distance in the future. 
 To implement optimal replacement policy, we need to know the memory access trace in the future.
 
-This is impossible in real CPUs, but in a simulator like Sniper, we can model this optimal replacement policy.
+This is impossible in real CPUs, but in a simulator like Sniper, we can model it.
 
-We need to do one or multiple passes of memory references of both instructions and data for a program. Sniper can produce a trace of memory references, with which you can develop your optimal replacement by looking ahead of the future. To facilitate the implementation, you can consider doing an offline analysis of the trace to help your afterward online replacement, or do them simultaneously in one online round, or both.
+We need to do one or multiple passes of memory references of both instructions and data for a program. Sniper can produce a trace of memory references, with which we can develop our optimal replacement by looking ahead of the future. To facilitate the implementation, we can consider doing an offline analysis of the trace to help our afterward online replacement, or do them simultaneously in one online round, or both.
 
 ### How to get Memory Access Trace
 
