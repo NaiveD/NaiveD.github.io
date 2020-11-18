@@ -7,6 +7,9 @@ categories:
     - Spring 2020 
     - ARTS1405
     - Final Paper
+banner_img: /img/Basquiat2.png
+banner_img_height: 100
+banner_mask_alpha: 0.3
 ---
 
 # 纪录片《巴斯奎特：一鸣惊人的涂鸦艺术家》2017 Rage to Riches 

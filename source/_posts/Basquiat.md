@@ -1,5 +1,5 @@
 ---
-title: Basquiat
+title: Jean-Michel Basquiat
 date: 2020-6-21 12:38:49
 tags: Arts
 categories:
@@ -7,6 +7,9 @@ categories:
     - Spring 2020 
     - ARTS1405
     - Final Paper
+banner_img: /img/Basquiat1.png
+banner_img_height: 100
+banner_mask_alpha: 0.3
 ---
 
 # 巴斯奎特个案研究
