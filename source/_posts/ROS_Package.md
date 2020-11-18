@@ -10,7 +10,7 @@ categories:
 ---
 
 # ROS Package
-### Creating a ROS Package
+## Creating a ROS Package
 Requirements for a catkin package:
 * Must contain `package.xml`, which provides meta information about the package
 * Must contain `CMakeLists.txt`, which uses **catkin**.
@@ -23,10 +23,10 @@ my_package/
 	package.xml
 ```
 
-### Packages in a catkin Workspace
+## Packages in a catkin Workspace
 * Using a catkin workspace to work with catkin packages is recommended. Refer to {% post_link ROS_Workspace %}
 
 * You can also build catkin packages standalone.
 
-### Creating a catkin Package
+## Creating a catkin Package
  
