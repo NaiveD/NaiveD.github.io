@@ -6,6 +6,7 @@ categories:
     - Fall 2020
     - TA
     - CS211
+    - Lab
 tags: Computer Architecture
 ---
 
@@ -13,7 +14,7 @@ tags: Computer Architecture
 
 ## What is Sniper
 
-**Sniper** is a next-generation parallel, high-speed and accurate **x86 simulator**. It is written in C.
+**Sniper** is a next-generation parallel, high-speed and accurate **x86 simulator**. It is written in C++.
 
 ## How to compile Sniper
 
@@ -48,3 +49,6 @@ Say you have an executable `program1.exe` and a config file `config1.cfg` under 
 $ cd $PATH_TO_SNIPER 
 $ ./run-sniper -c $PATH_TO_FILE/config1.cfg -- $PATH_TO_FILE/program1.exe
 ```
+
+## Reference
+> [Google Group of Sniper](https://groups.google.com/g/snipersim)

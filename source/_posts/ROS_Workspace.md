@@ -48,13 +48,13 @@ workspace_folder/         -- WORKSPACE
       package.xml
       ...
     package_n/
-      CATKIN_IGNORE       -- Optional empty file to exclude 									package_n from being processed
+      CATKIN_IGNORE       -- Optional empty file to exclude package_n from being processed
       CMakeLists.txt
       package.xml
       ...
   build/                  -- BUILD SPACE
-    CATKIN_IGNORE         -- Keeps catkin from walking this 									directory
-  devel/                  -- DEVELOPMENT SPACE (set by 											CATKIN_DEVEL_PREFIX)
+    CATKIN_IGNORE         -- Keeps catkin from walking this directory
+  devel/                  -- DEVELOPMENT SPACE (set by CATKIN_DEVEL_PREFIX)
     bin/
     etc/
     include/
@@ -65,7 +65,7 @@ workspace_folder/         -- WORKSPACE
     setup.bash
     setup.sh
     ...
-  install/                -- INSTALL SPACE (set by 		 										CMAKE_INSTALL_PREFIX)
+  install/                -- INSTALL SPACE (set by CMAKE_INSTALL_PREFIX)
     bin/
     etc/
     include/
