@@ -43,13 +43,15 @@ Run `$ roslaunch mb_setting amcl_demo.launch`
 ## Button Detection
 [MARS_button_detection Readme](https://star-center.shanghaitech.edu.cn/gitlab/MARS/MARS-Manipulation/mars_button_detection/-/blob/master/README.md)
 
+[OCR-RCNN: An Accurate and Efficient Framework for Elevator Button Recognition](https://github.com/zhudelong/ocr-rcnn-v2)
+
 * Data for testing
-Recorded bag of button images in `~/elevator_project/button.bag`
+    Recorded bag of button images in `~/elevator_project/button.bag`
 
 * Starting the button detection
 
-launch detection node: 
-`roslaunch mars_button_detection detect.launch`
+    launch detection node: 
+    `roslaunch mars_button_detection detect.launch`
 
 * Start button push
-`roslaunch mars_button_push mars_button_push.launch`
+    `roslaunch mars_button_push mars_button_push.launch`
