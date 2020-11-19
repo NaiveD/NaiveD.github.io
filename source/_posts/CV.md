@@ -7,7 +7,7 @@ categories: Others
 
 # My Resume
 
-太拉了，简历没什么东西能写。。。
+太拉了🙃 ，简历没什么东西能写。。。
 
 [CV_zky.pdf](https://github.com/NaiveD/NaiveD.github.io/raw/code/source/_posts/CV/CV_zky.pdf)
 

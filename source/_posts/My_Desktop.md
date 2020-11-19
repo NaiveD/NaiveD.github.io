@@ -7,9 +7,11 @@ categories: Life
 
 # My Desktop Setup
 
-买各种东西基本上把助教和实习工资都花光了😱 ，好在还有奖学金🤣 。
+买各种东西基本上把助教和实习工资都花光了😢 ，好在奖学金马上就要发了🤣 。
 
 ## Dormitory
+
+<!-- ![全是屏幕](Dorm0.png) -->
 
 ![黄色 ？？？](Dorm1.png)
 
@@ -17,9 +19,11 @@ categories: Life
 
 ![游戏模式](Dorm3.png)
 
-<!-- ![全是屏幕](Dorm4.png) -->
+<!-- ![自闭模式](Dorm4.png) -->
 
-## LIMA Lab
+## Lab
+
+LIMA
 
 ![好好学习](Lab2.png)
 
@@ -30,3 +34,7 @@ categories: Life
 ![这是我独享的moment](Lab2_3.JPG)
 
 ![简陋的实验场地](Lab2_1.JPG)
+
+MARS
+
+![做project的地方](MARS1.JPG)
