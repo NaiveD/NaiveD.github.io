@@ -7,7 +7,7 @@ categories: Life
 
 # My Desktop Setup
 
-买各种东西基本上把助教和实习工资都花光了😁，好在还有奖学金🤣。
+买各种东西基本上把助教和实习工资都花光了😱 ，好在还有奖学金🤣 。
 
 ## Dormitory
 
