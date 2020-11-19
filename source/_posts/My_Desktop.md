@@ -19,8 +19,14 @@ categories: Life
 
 <!-- ![全是屏幕](Dorm4.png) -->
 
-## Lab
+## LIMA Lab
 
 ![好好学习](Lab2.png)
 
 ![天天向上](Lab1.png)
+
+开辟新领地
+
+![这是我独享的moment](Lab2_3.JPG)
+
+![简陋的实验场地](Lab2_1.JPG)
