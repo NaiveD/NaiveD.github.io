@@ -1,11 +1,13 @@
 ---
-title: CV
+title: Curriculum Vitae
 date: 2020-11-17 15:35:17
 tags: Others
-categories: Others
+categories: 
+    - Others
+    - Profiles
 ---
 
-# My Resume
+# My Résumé
 
 太拉了🙃 ，简历没什么东西能写。。。
 
