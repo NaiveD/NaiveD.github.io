@@ -10,17 +10,17 @@ tags: Schedule
 # Week 11 Schedule
 
 CS211 TA
-- [ ] Lab1 grading (continue next week)
+- [ ] Lab1 grading (ddl: Dec.1)
 - [x] Quiz7 grading
 - [x] Lab3 check
 - [x] Midterm solution
-- [ ] Hw3 Q1 solution (continue next week)
+- [ ] Hw3 Q1 solution (ddl: Dec.2)
 
 CS283 Course
 - [ ] Proj: button push (continue next week)
-- [ ] HW4 (continue next week)
-- [ ] Prepare for Midterm
-- [ ] ~~Reading~~
+- [ ] HW4 (ddl: Dec.3)
+- [ ] Prepare for Midterm (Nov.24)
+- [ ] Reading
 
 Research
 - [x] Experimental setup
