@@ -108,12 +108,6 @@ deploy:
   repository: https://github.com/NaiveD/NaiveD.github.io
   branch: main
 
-# # hexo-renderer-marked插件配置
-# marked:
-#   smartypants: false
-
-# MathJax
-math:
-  engine: 'mathjax'
-  mathjax:
-    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML   
+# hexo-renderer-marked插件配置
+marked:
+  smartypants: false
