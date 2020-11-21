@@ -108,9 +108,9 @@ deploy:
   repository: https://github.com/NaiveD/NaiveD.github.io
   branch: main
 
-# hexo-renderer-marked插件配置
-marked:
-  smartypants: false
+# # hexo-renderer-marked插件配置
+# marked:
+#   smartypants: false
 
 # MathJax
 math:
