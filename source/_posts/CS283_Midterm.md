@@ -14,3 +14,4 @@ categories:
 ## Contents
 
 {% post_link CS283-Lec01 Lecture 01 Introduction %}
+{% post_link CS283-Lec02 Lecture 02 Kinematics %}
