@@ -13,4 +13,4 @@ categories:
 
 ## Contents
 
-{% post_link CS283-Lec01 %}
+{% post_link CS283-Lec01 Lecture 01 Introduction %}
