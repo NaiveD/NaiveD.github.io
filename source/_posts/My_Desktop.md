@@ -11,7 +11,7 @@ categories: Life
 
 ## Dormitory
 
-<!-- ![全是屏幕](Dorm0.png) -->
+![全是屏幕](Dorm0.png)
 
 ![黄色 ？？？](Dorm1.png)
 
@@ -19,15 +19,13 @@ categories: Life
 
 ![游戏模式](Dorm3.png)
 
-<!-- ![自闭模式](Dorm4.png) -->
+![自闭模式](Dorm4.png)
 
 ## Lab
 
-LIMA
+LIMA Lab
 
-![好好学习](Lab2.png)
-
-![天天向上](Lab1.png)
+![好好学习，天天向上](Lab2.png)
 
 开辟新领地
 
@@ -35,6 +33,6 @@ LIMA
 
 ![简陋的实验场地](Lab2_1.JPG)
 
-MARS
+MARS Lab
 
 ![做Elevator Project的地方](MARS1.JPG)

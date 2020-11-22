@@ -24,7 +24,7 @@ CS283 Course
 
 Research
 - [x] Experimental setup
-- [ ] Do xperiments
+- [ ] Do experiments
 <!-- - [ ] Read BO tutorial (continue next week) -->
 - [x] Reimbursement
 
