@@ -32,4 +32,7 @@ Graduation
 - [x] Mission book
 
 Application
-- [ ] Waiting for UPenn offer (wish me good luck 🙏)
+- [ ] Waiting for UPenn offer (wish me good luck 🙏) 
+
+Others
+- [x] Orchestra rehearsal 

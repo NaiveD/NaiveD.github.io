@@ -13,7 +13,7 @@ CS211 TA
 - [x] HW4 check
 
 CS283 Course
-- [ ] Proj: button push (continue next week)
+- [ ] Proj: button push
 - [ ] HW4 (ddl: Dec.3)
 - [ ] Prepare for Midterm (Nov.24)
 
