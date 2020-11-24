@@ -8,18 +8,26 @@ categories:
 ---
 
 CS211 TA
-- [ ] Lab1 grading (ddl: Dec.1)  
+- [x] HW4 check 
 - [ ] Hw3 Q1 solution (ddl: Dec.2)
-- [x] HW4 check
+
+* Lab1 grading (ddl: Dec.1) 
+  - [x] Learn Sniper
+  - [ ] Read some reports and try to fully understand Lab1
+  - [ ] Run code and finish grading
 
 CS283 Course
-- [ ] Proj: button push
-- [ ] HW4 (ddl: Dec.3)
 - [x] Midterm (Nov.24)
+- [ ] HW4 (ddl: Dec.3)
+
+* Project (button push)
+    - [ ] Learn ROS `tf2` package
+    - [ ] Read code `MARS_BUTTON_PUSH`
 
 Research
-- [x] Fix *Slimdog*'s legs
-- [ ] Do experiments
+* **Slimdog**
+  - [x] Fix the legs
+  - [ ] Do experiments
 - [ ] Reimbursement
 
 Application
