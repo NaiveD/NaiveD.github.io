@@ -15,7 +15,7 @@ CS211 TA
 CS283 Course
 - [ ] Proj: button push
 - [ ] HW4 (ddl: Dec.3)
-- [x] Prepare for Midterm (Nov.24)
+- [x] Midterm (Nov.24)
 
 Research
 - [x] Fix *Slimdog*'s legs
