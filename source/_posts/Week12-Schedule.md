@@ -23,6 +23,7 @@ CS283 Course
 * Project (button push)
     - [ ] Learn ROS `tf2` package
     - [ ] Read code `MARS_BUTTON_PUSH`
+    - [ ] Intermediate Report
 
 Research
 * **Slimdog**

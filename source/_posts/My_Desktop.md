@@ -11,15 +11,11 @@ categories: Life
 
 ## Dormitory
 
-![全是屏幕](Dorm0.png)
-
 ![黄色 ？？？](Dorm1.png)
 
 ![(骚)紫色](Dorm2.png)
 
 ![游戏模式](Dorm3.png)
-
-![自闭模式](Dorm4.png)
 
 ## Lab
 
