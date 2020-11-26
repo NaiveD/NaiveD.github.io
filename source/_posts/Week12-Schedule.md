@@ -14,7 +14,7 @@ categories:
 * Lab1 grading (ddl: Dec.1) 
   - [x] Learn Sniper
   - [x] Read some reports and try to fully understand Lab1
-  - [ ] Grading reports
+  - [ ] Grade reports
   - [ ] Run all the code and finish grading
 
 ### CS283 Course
