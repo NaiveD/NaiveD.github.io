@@ -29,7 +29,7 @@ Research
 * **Slimdog**
   - [x] Fix the legs
   - [ ] Do experiments
-- [ ] Reimbursement
+- [x] Reimbursement
 
 Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
