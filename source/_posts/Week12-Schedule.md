@@ -24,13 +24,14 @@ CS283 Course
 * Project (button push)
     - [ ] Learn ROS `tf2` package
     - [ ] Read code `MARS_BUTTON_PUSH`
-    - [ ] Intermediate Report
+    - [ ] Intermediate Report (ddl: Dec.3)
 
 Research
 * **Slimdog**
   - [x] Fix the legs
   - [ ] Do experiments
 - [x] Reimbursement
+- [ ] Read papers about MIT Cheetah
 
 Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
