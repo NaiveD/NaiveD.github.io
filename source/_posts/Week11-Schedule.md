@@ -9,30 +9,30 @@ tags: Schedule
 
 # Week 11 Schedule
 
-CS211 TA
-- [ ] Lab1 grading (ddl: Dec.1)  
+### CS211 TA
+- [ ] Lab1 grading (ddl: Dec.1) (Continue next week)
 - [x] Quiz7 grading
 - [x] Lab3 check
 - [x] Midterm solution
 <!-- - [ ] Hw3 Q1 solution (ddl: Dec.2) -->
 
-CS283 Course
+### CS283 Course
 <!-- - [ ] Proj: button push (continue next week) -->
 <!-- - [ ] HW4 (ddl: Dec.3) -->
-- [ ] Prepare for Midterm (Nov.24)
+- [x] Prepare for Midterm (Nov.24)
 <!-- - [ ] Reading -->
 
-Research
+### Research
 - [x] Experimental setup
-- [ ] Do experiments
+- [ ] Do experiments (Continue next week)
 <!-- - [ ] Read BO tutorial (continue next week) -->
 - [x] Reimbursement
 
-Graduation
+### Graduation
 - [x] Mission book
 
-Application
-- [ ] Waiting for UPenn offer (wish me good luck 🙏) 
+### Application
+- [ ] Waiting for UPenn offer (wish me good luck 🙏)
 
-Others
+### Others
 - [x] Orchestra rehearsal 

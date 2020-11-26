@@ -7,9 +7,9 @@ categories:
     - Fall 2020
 ---
 
-CS211 TA
+### CS211 TA
 - [x] HW4 check 
-- [ ] Hw3 Q1 solution (ddl: Dec.2)
+- [ ] HW3 Q1 solution (ddl: Dec.2)
 
 * Lab1 grading (ddl: Dec.1) 
   - [x] Learn Sniper
@@ -17,7 +17,7 @@ CS211 TA
   - [ ] Grading reports
   - [ ] Run all the code and finish grading
 
-CS283 Course
+### CS283 Course
 - [x] Midterm (Nov.24)
 - [ ] HW4 (ddl: Dec.3)
 
@@ -26,12 +26,15 @@ CS283 Course
     - [ ] Read code `MARS_BUTTON_PUSH`
     - [ ] Intermediate Report (ddl: Dec.3)
 
-Research
+### Research
 * **Slimdog**
   - [x] Fix the legs
   - [ ] Do experiments
 - [x] Reimbursement
 - [ ] Read papers about MIT Cheetah
 
-Application
+### Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
+
+### Others
+- [x] Orchestra rehearsal 

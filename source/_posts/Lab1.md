@@ -21,6 +21,13 @@ This is impossible in real CPUs, but in a simulator like Sniper, we can model it
 
 We need to do one or multiple passes of memory references of both instructions and data for a program. Sniper can produce a trace of memory references, with which we can develop our optimal replacement by looking ahead of the future. To facilitate the implementation, we can consider doing an offline analysis of the trace to help our afterward online replacement, or do them simultaneously in one online round, or both.
 
+### How to get Memory Access Trace
+
+Refer to: 
+1. [How to print out the trace containing only the memory-accessing instructions of a multi-threaded benchmark in a per-thread manner?](https://groups.google.com/g/snipersim/c/WMNVKJvw3PU/m/55UjDEubAGQJ?pli=1)
+2. [Obtaining application's memory trace](https://groups.google.com/g/snipersim/c/4CnjYwSagT4/m/Dc5FPYr3ZnYJ?pli=1)
+
+
 ## Cache Inclusion Policy
 
 * Inclusive: 高层级cache中的数据全部出现在低层级cache中
@@ -31,10 +38,3 @@ We need to do one or multiple passes of memory references of both instructions a
   * Lower level cache is exclusive of the higher level cache (e.g. L2 is exclusive of L1)
 
 * Non-Inclusive Non-Exclusive (NINE): 低层级cache既不是严格incluseive，也不是严格exclusive of the 高层级cache
-
-### How to get Memory Access Trace
-
-Refer to: 
-1. [How to print out the trace containing only the memory-accessing instructions of a multi-threaded benchmark in a per-thread manner?](https://groups.google.com/g/snipersim/c/WMNVKJvw3PU/m/55UjDEubAGQJ?pli=1)
-2. [Obtaining application's memory trace](https://groups.google.com/g/snipersim/c/4CnjYwSagT4/m/Dc5FPYr3ZnYJ?pli=1)
-
