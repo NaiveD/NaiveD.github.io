@@ -38,3 +38,6 @@ Refer to:
   * Lower level cache is exclusive of the higher level cache (e.g. L2 is exclusive of L1)
 
 * Non-Inclusive Non-Exclusive (NINE): 低层级cache既不是严格incluseive，也不是严格exclusive of the 高层级cache
+
+Refer to:
+1. [Exclusive or Inclusive caches](https://groups.google.com/g/snipersim/c/_NJu8DXCVVs/m/uL3Vo24OAAAJ)
