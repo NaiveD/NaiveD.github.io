@@ -14,14 +14,14 @@ categories:
 * **Lab1 grading (ddl: Dec.1)**
   - [x] Learn Sniper
   - [x] Read some reports and try to fully understand Lab1
-  - [ ] Grade reports
-  - [ ] Run all the code and finish grading
+  - [x] Grade reports
+  - [x] Run all the code and finish grading
 
 ### CS283 Course
 - [x] Midterm (Nov.24)
-- [ ] HW4 (ddl: Dec.3)
+- [ ] HW4 (ddl: Dec.10) (Continue next week)
 
-* **Project (button push)**
+* **Project (button push)** (Continue next week)
     - [ ] Learn ROS `tf2` package
     - [ ] Read code `MARS_BUTTON_PUSH`
     - [ ] Intermediate Report (ddl: Dec.3)
@@ -29,12 +29,12 @@ categories:
 ### Research
 * **Slimdog**
   - [x] Fix the legs
-  - [ ] Do experiments
+  - [x] Do experiments
 - [x] Reimbursement
-- [ ] Read papers about MIT Cheetah
+- [ ] Read papers about MIT Cheetah (Continue next week)
 
 ### Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
 
 ### Others
-- [ ] Orchestra rehearsal 
+- [x] Orchestra rehearsal 

@@ -10,7 +10,7 @@ tags: Schedule
 # Week 11 Schedule
 
 ### CS211 TA
-- [ ] Lab1 grading (ddl: Dec.1) (Continue next week)
+- [x] Lab1 grading (ddl: Dec.1) (Continue next week)
 - [x] Quiz7 grading
 - [x] Lab3 check
 - [x] Midterm solution
@@ -24,7 +24,7 @@ tags: Schedule
 
 ### Research
 - [x] Experimental setup
-- [ ] Do experiments (Continue next week)
+- [x] Do experiments (Continue next week)
 <!-- - [ ] Read BO tutorial (continue next week) -->
 - [x] Reimbursement
 
