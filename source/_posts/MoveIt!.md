@@ -16,3 +16,7 @@ In MoveIt, the simplest user interface is through the `MoveGroupInterface` class
 提供了简单的方式来 setting joint or pose goals, creating motion plans, moving the robot, adding objects into the environment and attaching/detaching objects from the robot. 
 
 This interface communicates over ROS topics, services, and actions to the MoveGroup Node.
+
+## Reference
+
+1. [MoveIt!入门教程](https://www.ncnynl.com/archives/201610/947.html）

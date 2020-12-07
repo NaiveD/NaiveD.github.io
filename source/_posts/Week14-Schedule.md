@@ -1,6 +1,6 @@
 ---
-title: Week 13 Schedule
-date: 2020-11-30 20:39:59
+title: Week 14 Schedule
+date: 2020-12-07 09:55:53
 tags: Schedule
 categories:
     - Schedule
@@ -8,16 +8,15 @@ categories:
 ---
 
 ### CS211 TA
-- [x] Lab1 grading
-- [ ] HW3 Q1 solution (ddl: Dec.2)
+- [ ] HW3 Q1 solution and grading (ddl: Dec.9)
+- [ ] Final (ddl: Dec.11)
 
 ### CS283 Course
 - [ ] HW4 (ddl: Dec.10)
 
 * **Project (button push)**
-    - [ ] Learn ROS `tf2` package
     - [ ] Read code `MARS_BUTTON_PUSH`
-    - [x] Intermediate Report (ddl: Dec.3)
+    - [ ] Meet with professor
 
 ### Research
 - [ ] Read papers about MIT Cheetah
@@ -26,5 +25,4 @@ categories:
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
 
 ### Others
-- [x] Orchestra rehearsal Sat
-- [x] Orchestra rehearsal Sun
+- [ ] Orchestra rehearsal
