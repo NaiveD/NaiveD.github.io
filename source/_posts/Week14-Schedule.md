@@ -9,6 +9,7 @@ categories:
 
 ### CS211 TA
 - [x] HW3 Q1 solution and grading (ddl: Dec.9)
+- [x] Quiz 9 Grading
 - [ ] Final (ddl: Dec.11)
 
 ### CS283 Course
