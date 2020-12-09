@@ -8,7 +8,7 @@ categories:
 ---
 
 ### CS211 TA
-- [ ] HW3 Q1 solution and grading (ddl: Dec.9)
+- [x] HW3 Q1 solution and grading (ddl: Dec.9)
 - [ ] Final (ddl: Dec.11)
 
 ### CS283 Course
@@ -23,6 +23,7 @@ categories:
 
 ### Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
+- [ ] Apply for more schools
 
 ### Others
 - [ ] Orchestra rehearsal

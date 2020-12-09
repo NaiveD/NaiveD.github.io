@@ -9,7 +9,7 @@ categories:
 
 ### CS211 TA
 - [x] HW4 check 
-- [ ] HW3 Q1 solution (ddl: Dec.2)
+- [x] HW3 Q1 solution (ddl: Dec.2)
 
 * **Lab1 grading (ddl: Dec.1)**
   - [x] Learn Sniper
