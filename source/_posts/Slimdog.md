@@ -10,6 +10,10 @@ categories:
 
 # Slimdog Project
 
+Team Member: Zhai Keyan, Li Chu'an
+
 ## Ready for experiments
 
 ![Slimdog](Slimdog1.JPG)
+
+To be continued ...

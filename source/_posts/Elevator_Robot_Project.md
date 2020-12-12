@@ -10,6 +10,11 @@ categories:
 ---
 
 # Elevator Robot Project
+
+Team Member: Zhai Keyan, Li Chu'an, Zhang Ge
+
+![Elevator Robot](Elevator_Robot.JPG)
+
 每次开机
 
 Start Jackal for ROS:
@@ -55,3 +60,5 @@ Run `$ roslaunch mb_setting amcl_demo.launch`
 
 * Start button push
     `roslaunch mars_button_push mars_button_push.launch`
+
+To be continued ...
