@@ -8,7 +8,7 @@ categories:
 ---
 
 ### CS211 TA
-- [ ] Final Problems Q2 (ddl: Dec.18)
+- [x] Final Problems Q2 (ddl: Dec.18)
 - [ ] HW4 Q2 grading (ddl: Dec.30)
 - [ ] Lab2 grading (ddl: Dec.30)
 - [ ] Lab3 grading (ddl: Dec.30)
