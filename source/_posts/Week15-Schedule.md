@@ -1,5 +1,5 @@
 ---
-title: Week15_Schedule
+title: Week 15 Schedule
 date: 2020-12-15 20:40:56
 tags: Schedule
 categories:
@@ -8,7 +8,7 @@ categories:
 ---
 
 ### CS211 TA
-- [ ] Final Problems
+- [ ] Final Problems Q2 (ddl: Dec.18)
 - [ ] HW4 Q2 grading (ddl: Dec.30)
 - [ ] Lab2 grading (ddl: Dec.30)
 - [ ] Lab3 grading (ddl: Dec.30)
