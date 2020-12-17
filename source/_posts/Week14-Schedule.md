@@ -10,21 +10,21 @@ categories:
 ### CS211 TA
 - [x] HW3 Q1 solution and grading (ddl: Dec.9)
 - [x] Quiz 9 Grading
-- [ ] Final (ddl: Dec.11)
+- [x] Final (ddl: Dec.11)
 
 ### CS283 Course
-- [ ] HW4 (ddl: Dec.10)
+- [ ] HW4 (ddl: Dec.20)
 
 * **Project (button push)**
     - [ ] Read code `MARS_BUTTON_PUSH`
-    - [ ] Meet with professor
+    - [x] Meet with professor
 
 ### Research
 - [ ] Read papers about MIT Cheetah
 
 ### Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
-- [ ] Apply for more schools
+- [x] Apply for more schools
 
 ### Others
-- [ ] Orchestra rehearsal
+- [x] Orchestra rehearsal
