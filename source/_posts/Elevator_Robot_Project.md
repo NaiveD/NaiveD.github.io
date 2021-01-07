@@ -11,54 +11,53 @@ categories:
 
 # Elevator Robot Project
 
+A project of the 2020 Robotics Course of the School of Information Science
+and Technology(SIST) of ShanghaiTech University
+<https://robotics.shanghaitech.edu.cn/teaching/robotics2020>
+
 Team Member: Zhai Keyan, Li Chu'an, Zhang Ge
+Supervisor: Hou Jiawei, Sören Schwertfeger
 
-![Elevator Robot](Elevator_Robot.JPG)
+## Introduction
 
-每次开机
+In this project, we tried to make a robot capable of taking elevators autonomously. With the ability to take elevators and move vertically inside a building, the mobility of wheeled robots can be significantly improved.
 
-Start Jackal for ROS:
-`$ roslaunch jackal_base base.launch` 开机已经自动启动了
+## System Description
 
-目录位置：
-`~/catkin_ws/src/jackal_robot/`
+### Hardware
 
-Prepare robot, including camera, velodyne, kinova, tf:
-`$ roslaunch prepare_kinova_realsense prepare_kinova_realsense.launch`
+Our elevator robot includes a complex hardware system consists of the following parts:
 
-For visualization:
-`$ rosrun rviz rviz`
-Use config at `~/.rviz/elevator.rviz`
+* **Base platform** - Jackal
+* **Manipulator** - Kinova
+* **Camera** - Intel Realsense
+* **3D LiDAR** - Velodyne
 
-## PS3 Controller
-joystick control: `sudo sixad -s`
+![The Elevator Robot](Elevator_Robot.JPG)
 
-[PS3 controller usage](https://support.playstation.com/s/article/PS3-Pair-and-Assign-Controllers?language=en_US)
+### Software
 
-并不能用，之后有时间再修。
+The whole software system is a multi-phased pipeline based on ROS melodic on Ubuntu 18.04.
 
+* **Localization and Navigation** - AMCL algorithm
 
-## Run Navigation
-Run `$ roslaunch mb_setting amcl_demo.launch`
+<!-- Add picture of navigation -->
+Picture of navigation to be added
 
-* Global Options里设置Fixed Frame为map
-* 然后2D Pose Estimate箭头手动设置初始位置
+* **Button Detection** - OCR-RCNN algorithm
 
+<!-- Add picture of button detection -->
+Picture of button detection to be added
 
-## Button Detection
-[MARS_button_detection Readme](https://star-center.shanghaitech.edu.cn/gitlab/MARS/MARS-Manipulation/mars_button_detection/-/blob/master/README.md)
+* **Button Push** - MoveIt!
 
-[OCR-RCNN: An Accurate and Efficient Framework for Elevator Button Recognition](https://github.com/zhudelong/ocr-rcnn-v2)
+![Button Push](Button_Push.jpg)
 
-* Data for testing
-    Recorded bag of button images in `~/elevator_project/button.bag`
+The upper left image indicates a random starting pose of the manipulator, represented by the orange arm in RViz in the right.
 
-* Starting the button detection
+The lower left image indicates the target pose of the manipulator where it pushes the button with the pose represented by the red arrow in RViz in the right.
 
-    launch detection node: 
-    `roslaunch mars_button_detection detect.launch`
+## Demos
 
-* Start button push
-    `roslaunch mars_button_push mars_button_push.launch`
-
-To be continued ...
+<!-- Add Video -->
+Video to be added.
