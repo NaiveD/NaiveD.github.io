@@ -56,5 +56,5 @@ The lower left image indicates the target pose of the manipulator where it pushe
 
 ## Demos
 
-<!-- Add Video -->
-Video to be added.
+<p align="center"><video width="480" height="320" controls>
+<source src="Fabulous_Elevator_Operator.mp4"></video></p>
