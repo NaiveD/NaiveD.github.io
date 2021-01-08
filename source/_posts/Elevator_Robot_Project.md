@@ -11,8 +11,7 @@ categories:
 
 # Elevator Robot Project
 
-A project of the 2020 Robotics Course of the School of Information Science
-and Technology(SIST) of ShanghaiTech University
+A project of the 2020 Robotics Course of the School of Information Science and Technology (SIST) of ShanghaiTech University
 <https://robotics.shanghaitech.edu.cn/teaching/robotics2020>
 
 Team Member: Zhai Keyan, Li Chu'an, Zhang Ge
@@ -41,13 +40,11 @@ The whole software system is a multi-phased pipeline based on ROS melodic on Ubu
 
 * **Localization and Navigation** - AMCL algorithm
 
-<!-- Add picture of navigation -->
-Picture of navigation to be added
+![AMCL Navigation](Navi.png)
 
 * **Button Detection** - OCR-RCNN algorithm
 
-<!-- Add picture of button detection -->
-Picture of button detection to be added
+![Button Detection](Button_Detect.JPG)
 
 * **Button Push** - MoveIt!
 
