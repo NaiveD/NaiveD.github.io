@@ -9,24 +9,23 @@ categories:
 
 ### CS211 TA
 - [x] Final Problems Q2 (ddl: Dec.18)
-- [ ] HW4 Q2 grading (ddl: Dec.30)
-- [ ] Lab2 grading (ddl: Dec.30)
-- [ ] Lab3 grading (ddl: Dec.30)
+- [x] HW4 Q2 grading (ddl: Dec.30)
+- [x] Lab2 grading (ddl: Dec.30)
+- [x] Lab3 grading (ddl: Dec.30)
 
 ### CS283 Robotics
-- [ ] HW4 (ddl: Dec.20, Sun)
+- [x] HW4 (ddl: Dec.20, Sun)
 
 * **Elevarot Robot Project**
-    - [ ] Read code
+    - [x] Read code
 
 ### Research
-- [ ] Perform more experiments
-- [ ] Read papers about MIT Cheetah
+- [x] Perform more experiments
+- [x] Read papers about MIT Cheetah
 
 ### Application
-- [ ] Apply for SINGA (ddl: Jan.1)
-- [ ] Apply for more universities (ddl: Jan.15)
+- [x] Apply for more universities (ddl: Jan.15)
 
 ### Others
-- [ ] Orchestra rehearsal (Dec.19, Sat)
-- [ ] New Year Party performing (Dec.20, Sun)
+- [x] Orchestra rehearsal (Dec.19, Sat)
+- [x] New Year Party performing (Dec.20, Sun)

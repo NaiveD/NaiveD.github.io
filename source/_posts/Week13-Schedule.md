@@ -12,15 +12,15 @@ categories:
 - [x] HW3 Q1 solution (ddl: Dec.2)
 
 ### CS283 Course
-- [ ] HW4 (ddl: Dec.10)
+- [x] HW4 (ddl: Dec.10)
 
 * **Project (button push)**
-    - [ ] Learn ROS `tf2` package
-    - [ ] Read code `MARS_BUTTON_PUSH`
+    - [x] Learn ROS `tf2` package
+    - [x] Read code `MARS_BUTTON_PUSH`
     - [x] Intermediate Report (ddl: Dec.3)
 
 ### Research
-- [ ] Read papers about MIT Cheetah
+- [x] Read papers about MIT Cheetah
 
 ### Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)

@@ -13,17 +13,16 @@ categories:
 - [x] Final (ddl: Dec.11)
 
 ### CS283 Course
-- [ ] HW4 (ddl: Dec.20)
+- [x] HW4 (ddl: Dec.20)
 
 * **Project (button push)**
-    - [ ] Read code `MARS_BUTTON_PUSH`
+    - [x] Read code `MARS_BUTTON_PUSH`
     - [x] Meet with professor
 
 ### Research
-- [ ] Read papers about MIT Cheetah
+- [x] Read papers about MIT Cheetah
 
 ### Application
-- [ ] Waiting for UPenn offer (wish me good luck 🙏)
 - [x] Apply for more schools
 
 ### Others

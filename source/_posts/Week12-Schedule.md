@@ -19,19 +19,19 @@ categories:
 
 ### CS283 Course
 - [x] Midterm (Nov.24)
-- [ ] HW4 (ddl: Dec.10) (Continue next week)
+- [x] HW4 (ddl: Dec.10) (Continue next week)
 
 * **Project (button push)** (Continue next week)
-    - [ ] Learn ROS `tf2` package
-    - [ ] Read code `MARS_BUTTON_PUSH`
-    - [ ] Intermediate Report (ddl: Dec.3)
+    - [x] Learn ROS `tf2` package
+    - [x] Read code `MARS_BUTTON_PUSH`
+    - [x] Intermediate Report (ddl: Dec.3)
 
 ### Research
 * **Slimdog**
   - [x] Fix the legs
   - [x] Do experiments
 - [x] Reimbursement
-- [ ] Read papers about MIT Cheetah (Continue next week)
+- [x] Read papers about MIT Cheetah (Continue next week)
 
 ### Application
 - [ ] Waiting for UPenn offer (wish me good luck 🙏)
