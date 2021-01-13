@@ -10,7 +10,8 @@ categories:
 
 # Slimdog Project
 
-Zhai Keyan, Li Chu'an
+Member: Zhai Keyan, Li Chu'an
+Supervisor: Andre Rosendo
 
 ## Experiments
 
@@ -34,7 +35,6 @@ Zhai Keyan, Li Chu'an
 
 <p align="center"><video width="480" height="320" controls>
 <source src="Red_P1-R3_Kinovea.mp4"></video></p>
-
 
 
 To be continued ...
