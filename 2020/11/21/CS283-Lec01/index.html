@@ -1,0 +1,593 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/winnie1.JPG">
+  <link rel="icon" type="image/png" href="/img/winnie1.JPG">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="2017 Undergraduate">
+  <meta name="author" content="Keyan">
+  <meta name="keywords" content="">
+  <title>CS283 Lecture 01 - Keyan Zhai</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/10.1.2/styles/zenburn.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.5","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"copy_btn":true,"image_zoom":{"enable":true},"lazyload":{"enable":true,"onlypost":false},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>Keyan Zhai</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Home
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archives
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Categories
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Tags
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                About
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;</a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner intro-2" id="background" parallax=true
+         style="background: url('/img/wave.PNG') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="CS283 Lecture 01">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2020-11-21 15:47" pubdate>
+        November 21, 2020
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      609 words
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      10
+       minutes
+    </span>
+  
+
+  
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">CS283 Lecture 01</h1>
+            
+            <div class="markdown-body">
+              <h1 id="Lecture-01-Introduction"><a href="#Lecture-01-Introduction" class="headerlink" title="Lecture 01 Introduction"></a>Lecture 01 Introduction</h1><h2 id="What-is-a-Robot"><a href="#What-is-a-Robot" class="headerlink" title="What is a Robot"></a>What is a Robot</h2><p>Definition: A <strong>machine</strong> capable of performing complex tasks in the physical world,<br>that is using sensors to perceive the environment and acts tele-operated or autonomous.</p>
+<h2 id="Autonomous-Mobile-Robotics"><a href="#Autonomous-Mobile-Robotics" class="headerlink" title="Autonomous Mobile Robotics"></a>Autonomous Mobile Robotics</h2><p>Autonomous mobile robots move around the environment.<br>Therefore <strong>ALL</strong> of them: </p>
+<ul>
+<li>They need to know <strong>where</strong> they <strong>are</strong><ul>
+<li>Global Positioning System (GPS)</li>
+<li>Guiding system</li>
+<li>Model of the environment</li>
+</ul>
+</li>
+<li>They need to know <strong>where</strong> their <strong>goal</strong> is</li>
+<li>They need to know <strong>how</strong> to get there<ul>
+<li>Different levels:<ul>
+<li>Control</li>
+<li>Navigation</li>
+<li>Planning</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Most important capability</strong> (for autonomous mobile robots): </p>
+<p><strong>How to get from place A to place B?</strong> (safely and efficiently)</p>
+<h2 id="General-Control-Scheme-for-Mobile-Robot-Systems"><a href="#General-Control-Scheme-for-Mobile-Robot-Systems" class="headerlink" title="General Control Scheme for Mobile Robot Systems"></a>General Control Scheme for Mobile Robot Systems</h2><p><img src="Lec01_1.jpg" srcset="/img/loading.gif" alt="Control scheme for mobile robot systems"></p>
+<h2 id="Programming-Review"><a href="#Programming-Review" class="headerlink" title="Programming Review"></a>Programming Review</h2><h3 id="Process-vs-Thread"><a href="#Process-vs-Thread" class="headerlink" title="Process vs. Thread"></a>Process vs. Thread</h3><ul>
+<li><p>Process: Execution of one instance of a computer program</p>
+<ul>
+<li>Each process has its own virtual memory<ul>
+<li>Contains only code and data from this program, the libraries and the OS</li>
+<li>Other processes (programs) cannot access this memory (shared memory access is possible but complicated)</li>
+</ul>
+</li>
+<li>OS Scheduling<ul>
+<li>OS can give higher or lower priority to certain processes</li>
+<li>Linux 命令 <code>top</code>，常用的性能分析工具，能够实时显示系统中各个进程的资源占用状况，类似于Windows的任务管理器。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Multi-Threading 多线程</p>
+<ul>
+<li>In one process, multiple threads =&gt; parallel execution</li>
+<li>🙂 Code and Memory is shared =&gt; easy exchange of data, save memory</li>
+<li>😐 Synchronization can be tricky (mutex, dead lock, race condition)</li>
+<li>🙁 If one thread crashes, the whole process (all threads) die</li>
+</ul>
+</li>
+</ul>
+<p>总结：进程就是每个执行的程序，而一个进程中可以有多个线程并行执行。这多个线程互相分享数据和内存，需要考虑它们之间同步的问题。如果其中一个线程崩溃，那么所有线程都会结束。</p>
+<h3 id="Processes-and-Threads-in-Robotics"><a href="#Processes-and-Threads-in-Robotics" class="headerlink" title="Processes and Threads in Robotics"></a>Processes and Threads in Robotics</h3><h4 id="Robot-Operating-System-ROS-Multiple-Processes"><a href="#Robot-Operating-System-ROS-Multiple-Processes" class="headerlink" title="Robot Operating System (ROS): Multiple Processes"></a>Robot Operating System (ROS): Multiple Processes</h4><ul>
+<li>Each <strong>component</strong> runs in its own <strong>process</strong>: called <u><strong>node</strong></u></li>
+<li>A <u><strong>node</strong></u> can have multiple threads =&gt; faster computation</li>
+<li><u><strong>Nodes</strong></u> communicate using <u><strong>messages</strong></u> (and <u><strong>services</strong></u>)</li>
+<li>A <u><strong>node</strong></u> can send ( <u><strong>publish</strong></u> ) <u><strong>messages</strong></u> under different names called <u><strong>topic</strong></u></li>
+<li>A <u><strong>node</strong></u> can listen to ( <u><strong>subscribe</strong></u> ) <u><strong>messages</strong></u> under different <u><strong>topics</strong></u></li>
+</ul>
+<h4 id="ROS-Messages"><a href="#ROS-Messages" class="headerlink" title="ROS Messages"></a>ROS Messages</h4><ul>
+<li><p><u><strong>Messages</strong></u> are transfered over the network (TCP/IP) =&gt; multiple computers work together transparently</p>
+</li>
+<li><p>🙁 <u><strong>Messages</strong></u> are serialized, copied and de-serialized even if both nodes are on the same computer =&gt; <strong>slow</strong> (compared to pointer passing)</p>
+<ul>
+<li>Optimization: <u><strong>Nodelet</strong></u> (run different nodes in the SAME process =&gt; pointer passing =&gt; fast)</li>
+</ul>
+</li>
+<li><p><u><strong>Messages</strong></u> are often passed around as <u><strong>shared pointers</strong></u> which are </p>
+<ul>
+<li>&quot;write protected&quot; using the <code>const</code> keyword (cannot be changed)</li>
+<li>The shared pointers take the message type as template argument</li>
+<li>Shared pointers can be accessed like normal pointers</li>
+</ul>
+</li>
+<li><p>Create own message: Text format</p>
+</li>
+</ul>
+<h4 id="ROS-nodes"><a href="#ROS-nodes" class="headerlink" title="ROS nodes"></a>ROS nodes</h4><ul>
+<li><u><strong>ROS core</strong></u>: keep track which <u><strong>nodes</strong></u> are running and their <u><strong>topics</strong></u></li>
+<li>Show all <u><strong>nodes</strong></u> and <u><strong>topics</strong></u> in a graph: <code>rosrun rqt_graph rqt_graph</code></li>
+</ul>
+<h4 id="ROS-Services"><a href="#ROS-Services" class="headerlink" title="ROS Services"></a>ROS Services</h4><h3 id="C-Programming"><a href="#C-Programming" class="headerlink" title="C++ Programming"></a>C++ Programming</h3><ul>
+<li><p>C++ Object Orientation</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.runoob.com/cplusplus/cpp-classes-objects.html">C++ 面向对象</a></li>
+</ul>
+</li>
+<li><p>C++ Constant Variables 常量</p>
+<ul>
+<li>Declare variables or objects that do not change (anymore) in the code: <code>const</code></li>
+<li>Used for <strong>program-correctness</strong>, especially for <strong>multi-threading</strong>:<ul>
+<li>Share the data (e.g. images)</li>
+<li>Make it read only via <code>const</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>C++ Templates</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.runoob.com/cplusplus/cpp-templates.html">C++ 模板</a></li>
+</ul>
+</li>
+<li><p>C++ Shared Pointer</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://en.cppreference.com/w/cpp/memory/shared_ptr">C++ Shared Pointer</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/thinkerleo1997/article/details/78754919">C++ 中的智能指针：shared_ptr 的介绍和用法</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Compiler-Linker"><a href="#Compiler-Linker" class="headerlink" title="Compiler, Linker"></a>Compiler, Linker</h3><ul>
+<li>Standard in Linux: gcc: <strong>G</strong>NU <strong>C</strong>ompiler <strong>C</strong>ollection</li>
+<li><strong>Compiler</strong>: Create machine code out of programming language</li>
+<li><strong>Linker</strong>: Link the machine code with other machine code (provided by libraries)</li>
+</ul>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Courses/">Courses</a>
+                    
+                      <a class="hover-with-bg" href="/categories/Courses/Fall-2020/">Fall 2020</a>
+                    
+                      <a class="hover-with-bg" href="/categories/Courses/Fall-2020/CS283/">CS283</a>
+                    
+                      <a class="hover-with-bg" href="/categories/Courses/Fall-2020/CS283/Lecture-Notes/">Lecture Notes</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Robotics/">Robotics</a>
+                    
+                  </div>
+                
+              </div>
+              
+              
+                <div class="post-prevnext row">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2020/11/21/CS283-Lec02/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">CS283 Lecture 02</span>
+                        <span class="visible-mobile">Previous</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2020/11/19/Slimdog/">
+                        <span class="hidden-mobile">Slimdog</span>
+                        <span class="visible-mobile">Next</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;TOC</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">keyword</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> <br>不做了，睡大觉！ 
+  </div>
+  
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            Total views 
+            <span id="busuanzi_value_site_pv"></span>
+            
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            Total visitors 
+            <span id="busuanzi_value_site_uv"></span>
+            
+          </span>
+      
+    
+  </div>
+
+
+  
+
+  
+</footer>
+
+<!-- SCRIPTS -->
+
+  <script  src="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":200})
+    NProgress.start()
+    document.addEventListener('DOMContentLoaded', function() {
+      window.NProgress && window.NProgress.inc();
+    })
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.5.3/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="/js/lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  <script  src="https://cdn.staticfile.org/tocbot/4.12.0/tocbot.min.js" ></script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+      typing(title)
+      
+    })(window, document);
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    (function () {
+      var path = "/local-search.xml";
+      var inputArea = document.querySelector("#local-search-input");
+      inputArea.onclick = function () {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+        this.onclick = null
+      }
+    })()
+  </script>
+
+
+
+
+
+
+
+
+
+  <script  src="https://cdn.staticfile.org/mermaid/8.8.2/mermaid.min.js" ></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({"theme":"default"});
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+
+</body>
+</html>
