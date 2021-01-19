@@ -408,11 +408,42 @@
   
   
   <entry>
-    <title>ROS Package</title>
-    <link href="/2020/11/17/ROS_Package/"/>
-    <url>/2020/11/17/ROS_Package/</url>
+    <title>Elevator Robot Project</title>
+    <link href="/2020/11/17/Elevator_Robot_Project/"/>
+    <url>/2020/11/17/Elevator_Robot_Project/</url>
     
-    <content type="html"><![CDATA[<h1 id="ROS-Package"><a href="#ROS-Package" class="headerlink" title="ROS Package"></a>ROS Package</h1><h2 id="Creating-a-ROS-Package"><a href="#Creating-a-ROS-Package" class="headerlink" title="Creating a ROS Package"></a>Creating a ROS Package</h2><p>Requirements for a catkin package:</p><ul><li>Must contain <code>package.xml</code>, which provides meta information about the package</li><li>Must contain <code>CMakeLists.txt</code>, which uses <strong>catkin</strong>.</li><li>Each package must have its own folder</li></ul><p>Simplest package structure:</p><pre><code class="hljs reasonml">my_package/<span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">CMakeLists</span>.</span></span>txtpackage.xml</code></pre><h2 id="Packages-in-a-catkin-Workspace"><a href="#Packages-in-a-catkin-Workspace" class="headerlink" title="Packages in a catkin Workspace"></a>Packages in a catkin Workspace</h2><ul><li><p>Using a catkin workspace to work with catkin packages is recommended. Refer to <a href="/2020/11/17/ROS_Workspace/" title="ROS Workspace">ROS Workspace</a></p></li><li><p>You can also build catkin packages standalone.</p></li></ul><h2 id="Creating-a-catkin-Package"><a href="#Creating-a-catkin-Package" class="headerlink" title="Creating a catkin Package"></a>Creating a catkin Package</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="Elevator-Robot-Project"><a href="#Elevator-Robot-Project" class="headerlink" title="Elevator Robot Project"></a>Elevator Robot Project</h1><p>A project of the 2020 Robotics Course of the School of Information Science and Technology (SIST) of ShanghaiTech University<br><a href="https://robotics.shanghaitech.edu.cn/teaching/robotics2020">https://robotics.shanghaitech.edu.cn/teaching/robotics2020</a></p><p>Team Member: Zhai Keyan, Li Chu&#39;an, Zhang Ge<br>Supervisor: Hou Jiawei, Sören Schwertfeger</p><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In this project, we tried to make a robot capable of taking elevators autonomously. With the ability to take elevators and move vertically inside a building, the mobility of wheeled robots can be significantly improved.</p><h2 id="System-Description"><a href="#System-Description" class="headerlink" title="System Description"></a>System Description</h2><h3 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h3><p>Our elevator robot includes a complex hardware system consists of the following parts:</p><ul><li><strong>Base platform</strong> - Jackal</li><li><strong>Manipulator</strong> - Kinova</li><li><strong>Camera</strong> - Intel Realsense</li><li><strong>3D LiDAR</strong> - Velodyne</li></ul><p><img src="Elevator_Robot.JPG" alt="The Elevator Robot"></p><h3 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h3><p>The whole software system is a multi-phased pipeline based on ROS melodic on Ubuntu 18.04.</p><ul><li><strong>Localization and Navigation</strong> - AMCL algorithm</li></ul><p><img src="Navi.png" alt="AMCL Navigation"></p><ul><li><strong>Button Detection</strong> - OCR-RCNN algorithm</li></ul><p><img src="Button_Detect.JPG" alt="Button Detection"></p><ul><li><strong>Button Push</strong> - MoveIt!</li></ul><p><img src="Button_Push.jpg" alt="Button Push"></p><p>The upper left image indicates a random starting pose of the manipulator, represented by the orange arm in RViz in the right.</p><p>The lower left image indicates the target pose of the manipulator where it pushes the button with the pose represented by the red arrow in RViz in the right.</p><h2 id="Demos"><a href="#Demos" class="headerlink" title="Demos"></a>Demos</h2><p align="center"><video width="480" height="320" controls><source src="elevator.mp4"></video></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Courses</category>
+      
+      <category>Fall 2020</category>
+      
+      <category>CS283</category>
+      
+      <category>Project</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Robotics</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ROS Filesystem</title>
+    <link href="/2020/11/17/ROS_Filesystem/"/>
+    <url>/2020/11/17/ROS_Filesystem/</url>
+    
+    <content type="html"><![CDATA[<h1 id="ROS-Filesystem"><a href="#ROS-Filesystem" class="headerlink" title="ROS Filesystem"></a>ROS Filesystem</h1><ul><li><strong>Packages</strong>: the software organization unit of ROS code, can contain libraries, executables, scripts, or other artifacts.</li><li><strong>Manifests</strong> (package.xml): a description of a <em>package</em>, defines dependencies between packages, captures meta information about the <em>package</em> like version, maintainer, license, etc...</li></ul><h2 id="Filesystem-Tools"><a href="#Filesystem-Tools" class="headerlink" title="Filesystem Tools"></a>Filesystem Tools</h2><p><code>rospack</code>, <code>roscd</code>, and <code>rosls</code></p><pre><code class="hljs inform7">$ rospack find <span class="hljs-comment">[package_name]</span># returns the package path$ roscd <span class="hljs-comment">[locationname<span class="hljs-comment">[/subdir]</span>]</span> $ rosls <span class="hljs-comment">[locationname<span class="hljs-comment">[/subdir]</span>]</span></code></pre>]]></content>
     
     
     <categories>
@@ -470,42 +501,11 @@
   
   
   <entry>
-    <title>ROS Filesystem</title>
-    <link href="/2020/11/17/ROS_Filesystem/"/>
-    <url>/2020/11/17/ROS_Filesystem/</url>
+    <title>ROS Package</title>
+    <link href="/2020/11/17/ROS_Package/"/>
+    <url>/2020/11/17/ROS_Package/</url>
     
-    <content type="html"><![CDATA[<h1 id="ROS-Filesystem"><a href="#ROS-Filesystem" class="headerlink" title="ROS Filesystem"></a>ROS Filesystem</h1><ul><li><strong>Packages</strong>: the software organization unit of ROS code, can contain libraries, executables, scripts, or other artifacts.</li><li><strong>Manifests</strong> (package.xml): a description of a <em>package</em>, defines dependencies between packages, captures meta information about the <em>package</em> like version, maintainer, license, etc...</li></ul><h2 id="Filesystem-Tools"><a href="#Filesystem-Tools" class="headerlink" title="Filesystem Tools"></a>Filesystem Tools</h2><p><code>rospack</code>, <code>roscd</code>, and <code>rosls</code></p><pre><code class="hljs inform7">$ rospack find <span class="hljs-comment">[package_name]</span># returns the package path$ roscd <span class="hljs-comment">[locationname<span class="hljs-comment">[/subdir]</span>]</span> $ rosls <span class="hljs-comment">[locationname<span class="hljs-comment">[/subdir]</span>]</span></code></pre>]]></content>
-    
-    
-    <categories>
-      
-      <category>Courses</category>
-      
-      <category>Fall 2020</category>
-      
-      <category>CS283</category>
-      
-      <category>ROS</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Robotics</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>ROS Services and Parameters</title>
-    <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
-    <url>/2020/11/17/ROS_Services_and_Parameters/</url>
-    
-    <content type="html"><![CDATA[<h1 id="ROS-Services-and-Parameters"><a href="#ROS-Services-and-Parameters" class="headerlink" title="ROS Services and Parameters"></a>ROS Services and Parameters</h1><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><p><a href="http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">ROS/Tutorials/UnderstandingServicesParams - ROS Wiki</a><br><a href="http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">ROS/Tutorials/WritingServiceClient(c++) - ROS Wiki</a>  </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS-Package"><a href="#ROS-Package" class="headerlink" title="ROS Package"></a>ROS Package</h1><h2 id="Creating-a-ROS-Package"><a href="#Creating-a-ROS-Package" class="headerlink" title="Creating a ROS Package"></a>Creating a ROS Package</h2><p>Requirements for a catkin package:</p><ul><li>Must contain <code>package.xml</code>, which provides meta information about the package</li><li>Must contain <code>CMakeLists.txt</code>, which uses <strong>catkin</strong>.</li><li>Each package must have its own folder</li></ul><p>Simplest package structure:</p><pre><code class="hljs reasonml">my_package/<span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">CMakeLists</span>.</span></span>txtpackage.xml</code></pre><h2 id="Packages-in-a-catkin-Workspace"><a href="#Packages-in-a-catkin-Workspace" class="headerlink" title="Packages in a catkin Workspace"></a>Packages in a catkin Workspace</h2><ul><li><p>Using a catkin workspace to work with catkin packages is recommended. Refer to <a href="/2020/11/17/ROS_Workspace/" title="ROS Workspace">ROS Workspace</a></p></li><li><p>You can also build catkin packages standalone.</p></li></ul><h2 id="Creating-a-catkin-Package"><a href="#Creating-a-catkin-Package" class="headerlink" title="Creating a catkin Package"></a>Creating a catkin Package</h2>]]></content>
     
     
     <categories>
@@ -563,11 +563,11 @@
   
   
   <entry>
-    <title>Elevator Robot Project</title>
-    <link href="/2020/11/17/Elevator_Robot_Project/"/>
-    <url>/2020/11/17/Elevator_Robot_Project/</url>
+    <title>ROS Services and Parameters</title>
+    <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
+    <url>/2020/11/17/ROS_Services_and_Parameters/</url>
     
-    <content type="html"><![CDATA[<h1 id="Elevator-Robot-Project"><a href="#Elevator-Robot-Project" class="headerlink" title="Elevator Robot Project"></a>Elevator Robot Project</h1><p>A project of the 2020 Robotics Course of the School of Information Science and Technology (SIST) of ShanghaiTech University<br><a href="https://robotics.shanghaitech.edu.cn/teaching/robotics2020">https://robotics.shanghaitech.edu.cn/teaching/robotics2020</a></p><p>Team Member: Zhai Keyan, Li Chu&#39;an, Zhang Ge<br>Supervisor: Hou Jiawei, Sören Schwertfeger</p><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In this project, we tried to make a robot capable of taking elevators autonomously. With the ability to take elevators and move vertically inside a building, the mobility of wheeled robots can be significantly improved.</p><h2 id="System-Description"><a href="#System-Description" class="headerlink" title="System Description"></a>System Description</h2><h3 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h3><p>Our elevator robot includes a complex hardware system consists of the following parts:</p><ul><li><strong>Base platform</strong> - Jackal</li><li><strong>Manipulator</strong> - Kinova</li><li><strong>Camera</strong> - Intel Realsense</li><li><strong>3D LiDAR</strong> - Velodyne</li></ul><p><img src="Elevator_Robot.JPG" alt="The Elevator Robot"></p><h3 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h3><p>The whole software system is a multi-phased pipeline based on ROS melodic on Ubuntu 18.04.</p><ul><li><strong>Localization and Navigation</strong> - AMCL algorithm</li></ul><p><img src="Navi.png" alt="AMCL Navigation"></p><ul><li><strong>Button Detection</strong> - OCR-RCNN algorithm</li></ul><p><img src="Button_Detect.JPG" alt="Button Detection"></p><ul><li><strong>Button Push</strong> - MoveIt!</li></ul><p><img src="Button_Push.jpg" alt="Button Push"></p><p>The upper left image indicates a random starting pose of the manipulator, represented by the orange arm in RViz in the right.</p><p>The lower left image indicates the target pose of the manipulator where it pushes the button with the pose represented by the red arrow in RViz in the right.</p><h2 id="Demos"><a href="#Demos" class="headerlink" title="Demos"></a>Demos</h2><p align="center"><video width="480" height="320" controls><source src="elevator.mp4"></video></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS-Services-and-Parameters"><a href="#ROS-Services-and-Parameters" class="headerlink" title="ROS Services and Parameters"></a>ROS Services and Parameters</h1><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><p><a href="http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">ROS/Tutorials/UnderstandingServicesParams - ROS Wiki</a><br><a href="http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">ROS/Tutorials/WritingServiceClient(c++) - ROS Wiki</a>  </p></blockquote>]]></content>
     
     
     <categories>
@@ -578,7 +578,7 @@
       
       <category>CS283</category>
       
-      <category>Project</category>
+      <category>ROS</category>
       
     </categories>
     
