@@ -19,17 +19,18 @@ Supervisor: Andre Rosendo
 
 ## Kinovea Analysis
 
-### No suppor
+### No support
 
 <p align="center"><video width="480" height="320" controls>
-<source src="No_P1_R1_Kinovea.mp4"></video></p>
+<source src="No_P1_R1_Kinovea3.mp4"></video></p>
 
 ### Minimum support
 
 <p align="center"><video width="480" height="320" controls>
-<source src="Min_P1-R1_Kinovea.mp4"></video></p>
+<source src="Min_P1_R1_Kinovea3.mp4"></video></p>
 
 ### Reducing support
 
 <p align="center"><video width="480" height="320" controls>
-<source src="Red_P1-R3_Kinovea.mp4"></video></p>
+<source src="Red_P1_R3_Kinovea3.mp4"></video></p>
+
