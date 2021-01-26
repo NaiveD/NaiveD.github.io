@@ -13,6 +13,8 @@ categories:
 Member: Zhai Keyan, Li Chu'an
 Supervisor: Andre Rosendo
 
+Paper on arXiv: <https://arxiv.org/abs/2101.09961>.
+
 ## Experiments
 
 ![Slimdog](Slimdog1.JPG)
