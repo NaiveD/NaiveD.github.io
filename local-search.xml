@@ -35,7 +35,7 @@
     <link href="/2021/01/27/Admission/"/>
     <url>/2021/01/27/Admission/</url>
     
-    <content type="html"><![CDATA[<p>Excited!</p><p><img src="offer.png" alt="Offer"></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="offer.png"></p><p>Excited!</p>]]></content>
     
     
     <categories>
@@ -553,11 +553,11 @@
   
   
   <entry>
-    <title>ROS Services and Parameters</title>
-    <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
-    <url>/2020/11/17/ROS_Services_and_Parameters/</url>
+    <title>ROS Package</title>
+    <link href="/2020/11/17/ROS_Package/"/>
+    <url>/2020/11/17/ROS_Package/</url>
     
-    <content type="html"><![CDATA[<h1 id="ROS-Services-and-Parameters"><a href="#ROS-Services-and-Parameters" class="headerlink" title="ROS Services and Parameters"></a>ROS Services and Parameters</h1><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><p><a href="http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">ROS/Tutorials/UnderstandingServicesParams - ROS Wiki</a><br><a href="http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">ROS/Tutorials/WritingServiceClient(c++) - ROS Wiki</a>  </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS-Package"><a href="#ROS-Package" class="headerlink" title="ROS Package"></a>ROS Package</h1><h2 id="Creating-a-ROS-Package"><a href="#Creating-a-ROS-Package" class="headerlink" title="Creating a ROS Package"></a>Creating a ROS Package</h2><p>Requirements for a catkin package:</p><ul><li>Must contain <code>package.xml</code>, which provides meta information about the package</li><li>Must contain <code>CMakeLists.txt</code>, which uses <strong>catkin</strong>.</li><li>Each package must have its own folder</li></ul><p>Simplest package structure:</p><pre><code class="hljs reasonml">my_package/<span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">CMakeLists</span>.</span></span>txtpackage.xml</code></pre><h2 id="Packages-in-a-catkin-Workspace"><a href="#Packages-in-a-catkin-Workspace" class="headerlink" title="Packages in a catkin Workspace"></a>Packages in a catkin Workspace</h2><ul><li><p>Using a catkin workspace to work with catkin packages is recommended. Refer to <a href="/2020/11/17/ROS_Workspace/" title="ROS Workspace">ROS Workspace</a></p></li><li><p>You can also build catkin packages standalone.</p></li></ul><h2 id="Creating-a-catkin-Package"><a href="#Creating-a-catkin-Package" class="headerlink" title="Creating a catkin Package"></a>Creating a catkin Package</h2>]]></content>
     
     
     <categories>
@@ -615,11 +615,11 @@
   
   
   <entry>
-    <title>ROS Package</title>
-    <link href="/2020/11/17/ROS_Package/"/>
-    <url>/2020/11/17/ROS_Package/</url>
+    <title>ROS Services and Parameters</title>
+    <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
+    <url>/2020/11/17/ROS_Services_and_Parameters/</url>
     
-    <content type="html"><![CDATA[<h1 id="ROS-Package"><a href="#ROS-Package" class="headerlink" title="ROS Package"></a>ROS Package</h1><h2 id="Creating-a-ROS-Package"><a href="#Creating-a-ROS-Package" class="headerlink" title="Creating a ROS Package"></a>Creating a ROS Package</h2><p>Requirements for a catkin package:</p><ul><li>Must contain <code>package.xml</code>, which provides meta information about the package</li><li>Must contain <code>CMakeLists.txt</code>, which uses <strong>catkin</strong>.</li><li>Each package must have its own folder</li></ul><p>Simplest package structure:</p><pre><code class="hljs reasonml">my_package/<span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">CMakeLists</span>.</span></span>txtpackage.xml</code></pre><h2 id="Packages-in-a-catkin-Workspace"><a href="#Packages-in-a-catkin-Workspace" class="headerlink" title="Packages in a catkin Workspace"></a>Packages in a catkin Workspace</h2><ul><li><p>Using a catkin workspace to work with catkin packages is recommended. Refer to <a href="/2020/11/17/ROS_Workspace/" title="ROS Workspace">ROS Workspace</a></p></li><li><p>You can also build catkin packages standalone.</p></li></ul><h2 id="Creating-a-catkin-Package"><a href="#Creating-a-catkin-Package" class="headerlink" title="Creating a catkin Package"></a>Creating a catkin Package</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS-Services-and-Parameters"><a href="#ROS-Services-and-Parameters" class="headerlink" title="ROS Services and Parameters"></a>ROS Services and Parameters</h1><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><p><a href="http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">ROS/Tutorials/UnderstandingServicesParams - ROS Wiki</a><br><a href="http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">ROS/Tutorials/WritingServiceClient(c++) - ROS Wiki</a>  </p></blockquote>]]></content>
     
     
     <categories>
