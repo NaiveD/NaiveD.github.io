@@ -1,5 +1,5 @@
 ---
-title: Week 13 Schedule
+title: Week 13 Schedule, Fall 2020
 date: 2020-11-30 20:39:59
 tags: Schedule
 categories:
@@ -21,9 +21,6 @@ categories:
 
 ### Research
 - [x] Read papers about MIT Cheetah
-
-### Application
-- [ ] Waiting for UPenn offer (wish me good luck 🙏)
 
 ### Others
 - [x] Orchestra rehearsal Sat

@@ -1,5 +1,5 @@
 ---
-title: Week 12 Schedule
+title: Week 12 Schedule, Fall 2020
 date: 2020-11-23 14:38:56
 tags: Schedule
 categories:
@@ -32,9 +32,6 @@ categories:
   - [x] Do experiments
 - [x] Reimbursement
 - [x] Read papers about MIT Cheetah (Continue next week)
-
-### Application
-- [ ] Waiting for UPenn offer (wish me good luck 🙏)
 
 ### Others
 - [x] Orchestra rehearsal 

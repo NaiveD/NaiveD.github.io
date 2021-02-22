@@ -1,5 +1,5 @@
 ---
-title: Week 11 Schedule
+title: Week 11 Schedule, Fall 2020
 date: 2020-11-16 16:26:15
 categories: 
     - Schedule
@@ -7,7 +7,7 @@ categories:
 tags: Schedule
 ---
 
-# Week 11 Schedule
+# Week 11 Schedule, Fall 2020
 
 ### CS211 TA
 - [x] Lab1 grading (ddl: Dec.1) (Continue next week)
@@ -30,9 +30,6 @@ tags: Schedule
 
 ### Graduation
 - [x] Mission book
-
-### Application
-- [ ] Waiting for UPenn offer (wish me good luck 🙏)
 
 ### Others
 - [x] Orchestra rehearsal 
