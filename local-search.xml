@@ -31,6 +31,31 @@
   
   
   <entry>
+    <title>Admitted to UPenn！！！</title>
+    <link href="/2021/01/27/Admission/"/>
+    <url>/2021/01/27/Admission/</url>
+    
+    <content type="html"><![CDATA[<p>Excited!</p><p><img src="offer.png" alt="Offer"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Life</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Elevator Robot How to</title>
     <link href="/2021/01/07/Elevator-Robot-Howto/"/>
     <url>/2021/01/07/Elevator-Robot-Howto/</url>
@@ -528,37 +553,6 @@
   
   
   <entry>
-    <title>ROS Package</title>
-    <link href="/2020/11/17/ROS_Package/"/>
-    <url>/2020/11/17/ROS_Package/</url>
-    
-    <content type="html"><![CDATA[<h1 id="ROS-Package"><a href="#ROS-Package" class="headerlink" title="ROS Package"></a>ROS Package</h1><h2 id="Creating-a-ROS-Package"><a href="#Creating-a-ROS-Package" class="headerlink" title="Creating a ROS Package"></a>Creating a ROS Package</h2><p>Requirements for a catkin package:</p><ul><li>Must contain <code>package.xml</code>, which provides meta information about the package</li><li>Must contain <code>CMakeLists.txt</code>, which uses <strong>catkin</strong>.</li><li>Each package must have its own folder</li></ul><p>Simplest package structure:</p><pre><code class="hljs reasonml">my_package/<span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">CMakeLists</span>.</span></span>txtpackage.xml</code></pre><h2 id="Packages-in-a-catkin-Workspace"><a href="#Packages-in-a-catkin-Workspace" class="headerlink" title="Packages in a catkin Workspace"></a>Packages in a catkin Workspace</h2><ul><li><p>Using a catkin workspace to work with catkin packages is recommended. Refer to <a href="/2020/11/17/ROS_Workspace/" title="ROS Workspace">ROS Workspace</a></p></li><li><p>You can also build catkin packages standalone.</p></li></ul><h2 id="Creating-a-catkin-Package"><a href="#Creating-a-catkin-Package" class="headerlink" title="Creating a catkin Package"></a>Creating a catkin Package</h2>]]></content>
-    
-    
-    <categories>
-      
-      <category>Courses</category>
-      
-      <category>Fall 2020</category>
-      
-      <category>CS283</category>
-      
-      <category>ROS</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Robotics</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>ROS Services and Parameters</title>
     <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
     <url>/2020/11/17/ROS_Services_and_Parameters/</url>
@@ -595,6 +589,37 @@
     <url>/2020/11/17/ROS_Workspace/</url>
     
     <content type="html"><![CDATA[<h1 id="ROS-Workspace"><a href="#ROS-Workspace" class="headerlink" title="ROS Workspace"></a>ROS Workspace</h1><h2 id="Create-a-ROS-workspace"><a href="#Create-a-ROS-workspace" class="headerlink" title="Create a ROS workspace"></a>Create a ROS workspace</h2><p>::Create and build a <strong>catkin workspace</strong>:::</p><pre><code class="hljs elixir"><span class="hljs-variable">$ </span>mkdir -p ~<span class="hljs-regexp">/catkin_ws/src</span><span class="hljs-variable">$ </span>cd ~<span class="hljs-regexp">/catkin_ws/</span><span class="hljs-variable">$ </span>catkin_make</code></pre><p>This will create a <code>CMakeLists.txt</code> link in your <code>src/</code> folder.<br>This will also create a <code>build/</code> and <code>devel/</code> folder in your current working directory.<br>Inside <code>devel</code>, there are several <code>setup.*sh</code> files. Source any of them to overlay this workspace on top os your environment.</p><p><code>$ source devel/setup.*sh</code></p><p>Make sure <code>ROS_PACKAGE_PATH</code> environment variable includes the directory.</p><pre><code class="hljs awk">$ echo <span class="hljs-variable">$ROS_PACKAGE_PATH</span><span class="hljs-regexp">/home/</span>zhaiky<span class="hljs-regexp">/cakin_ws/</span>src:<span class="hljs-regexp">/opt/</span>ros<span class="hljs-regexp">/melodic/</span>share</code></pre><h2 id="catkin-workspaces"><a href="#catkin-workspaces" class="headerlink" title="catkin workspaces:"></a><strong>catkin workspaces</strong>:</h2><p><strong>catkin workspaces</strong> can be built as </p><ol><li>A standalone project, like normal <code>cmake</code> projects</li><li>Also provides the concept of workspaces, where you can build multiple, interdependent packages together all at once.</li></ol><p>A <strong>catkin workspace</strong> is a <strong>folder</strong> where you modify, build, and install <strong>catkin packages</strong>. </p><p>Typical <strong>catkin workspace</strong> layout:</p><pre><code class="hljs crystal">workspace_folder/         -- WORKSPACE  src/                    -- SOURCE SPACE    CMakeLists.txt        -- The <span class="hljs-string">&#x27;toplevel&#x27;</span> CMake file    package_1/      CMakeLists.txt      package.xml      ...    package_n/      CATKIN_IGNORE       -- Optional empty file to exclude package_n from being processed      CMakeLists.txt      package.xml      ...  build/                  -- BUILD SPACE    CATKIN_IGNORE         -- Keeps catkin from walking this directory  devel/                  -- DEVELOPMENT SPACE (set by CATKIN_DEVEL_PREFIX)    bin/    etc/    <span class="hljs-keyword">include</span>/    <span class="hljs-class"><span class="hljs-keyword">lib</span>/</span>    share/    .catkin    env.bash    setup.bash    setup.sh    ...  install/                -- INSTALL SPACE (set by CMAKE_INSTALL_PREFIX)    bin/    etc/    <span class="hljs-keyword">include</span>/    <span class="hljs-class"><span class="hljs-keyword">lib</span>/</span>    share/    .catkin                 env.bash    setup.bash    setup.sh    ...</code></pre><p>Four spaces: <code>src/</code>, <code>build/</code>, <code>devel/</code>, and <code>install/</code>.</p><h3 id="Source-Space-src"><a href="#Source-Space-src" class="headerlink" title="Source Space src/"></a>Source Space <code>src/</code></h3><ul><li>contains source code of catkin packages</li><li>where you can extract/checkout/clone source code for the packages you want to build.</li><li>each folder <code>package_1</code>...<code>package_n</code> within the source space contains one or more <strong>catkin packages</strong></li></ul><h3 id="Build-Space-build"><a href="#Build-Space-build" class="headerlink" title="Build Space build/"></a>Build Space <code>build/</code></h3><ul><li>where <code>CMake</code> is invoked to build the catkin packages in the source space</li></ul><h3 id="Development-Space-devel"><a href="#Development-Space-devel" class="headerlink" title="Development Space devel/"></a>Development Space <code>devel/</code></h3><ul><li>where built targets are placed prior to being installed</li></ul><h3 id="Install-Space-install"><a href="#Install-Space-install" class="headerlink" title="Install Space install/"></a>Install Space <code>install/</code></h3><ul><li>Once targets are built, they can be installed into the install space by invoking the install target.</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Courses</category>
+      
+      <category>Fall 2020</category>
+      
+      <category>CS283</category>
+      
+      <category>ROS</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Robotics</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ROS Package</title>
+    <link href="/2020/11/17/ROS_Package/"/>
+    <url>/2020/11/17/ROS_Package/</url>
+    
+    <content type="html"><![CDATA[<h1 id="ROS-Package"><a href="#ROS-Package" class="headerlink" title="ROS Package"></a>ROS Package</h1><h2 id="Creating-a-ROS-Package"><a href="#Creating-a-ROS-Package" class="headerlink" title="Creating a ROS Package"></a>Creating a ROS Package</h2><p>Requirements for a catkin package:</p><ul><li>Must contain <code>package.xml</code>, which provides meta information about the package</li><li>Must contain <code>CMakeLists.txt</code>, which uses <strong>catkin</strong>.</li><li>Each package must have its own folder</li></ul><p>Simplest package structure:</p><pre><code class="hljs reasonml">my_package/<span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">CMakeLists</span>.</span></span>txtpackage.xml</code></pre><h2 id="Packages-in-a-catkin-Workspace"><a href="#Packages-in-a-catkin-Workspace" class="headerlink" title="Packages in a catkin Workspace"></a>Packages in a catkin Workspace</h2><ul><li><p>Using a catkin workspace to work with catkin packages is recommended. Refer to <a href="/2020/11/17/ROS_Workspace/" title="ROS Workspace">ROS Workspace</a></p></li><li><p>You can also build catkin packages standalone.</p></li></ul><h2 id="Creating-a-catkin-Package"><a href="#Creating-a-catkin-Package" class="headerlink" title="Creating a catkin Package"></a>Creating a catkin Package</h2>]]></content>
     
     
     <categories>
