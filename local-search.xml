@@ -4,34 +4,7 @@
   
   
   <entry>
-    <title>Week 1 Schedule, Spring 2021</title>
-    <link href="/2021/02/21/Week-1-Schedule-Spring-2021/"/>
-    <url>/2021/02/21/Week-1-Schedule-Spring-2021/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Week-1-Schedule-Spring-2021"><a href="#Week-1-Schedule-Spring-2021" class="headerlink" title="Week 1 Schedule, Spring 2021"></a>Week 1 Schedule, Spring 2021</h1><h3 id="Graduation-Project"><a href="#Graduation-Project" class="headerlink" title="Graduation Project"></a>Graduation Project</h3><ul><li><input disabled="" type="checkbox"> Make project plan</li></ul><h3 id="Visa"><a href="#Visa" class="headerlink" title="Visa"></a>Visa</h3><ul><li><input disabled="" type="checkbox"> Figure out what visa I need to go to the US, and how to get one</li></ul><h3 id="Driving"><a href="#Driving" class="headerlink" title="Driving"></a>Driving</h3><ul><li><input disabled="" type="checkbox"> Find a driving school</li></ul><h3 id="Work-out"><a href="#Work-out" class="headerlink" title="Work out"></a>Work out</h3><ul><li><input disabled="" type="checkbox"> Record my diet every day</li><li><input disabled="" type="checkbox"> Go to the gym 4 times </li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Schedule</category>
-      
-      <category>Spring 2021</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Schedule</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Admitted to UPenn！！！</title>
+    <title>Admitted to UPenn</title>
     <link href="/2021/01/27/Admission/"/>
     <url>/2021/01/27/Admission/</url>
     
@@ -48,37 +21,6 @@
     <tags>
       
       <tag>Life</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Elevator Robot How to</title>
-    <link href="/2021/01/07/Elevator-Robot-Howto/"/>
-    <url>/2021/01/07/Elevator-Robot-Howto/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Elevator-Robot-How-to"><a href="#Elevator-Robot-How-to" class="headerlink" title="Elevator Robot How to"></a>Elevator Robot How to</h1><p>Start Jackal for ROS:</p><p>Prepare robot, including camera, velodyne, kinova, tf:<br><code>$ roslaunch prepare_kinova_realsense prepare_kinova_realsense.launch</code></p><p>For visualization:<br><code>$ rosrun rviz rviz</code><br>Use config at <code>~/.rviz/elevator.rviz</code></p><h2 id="PS3-Controller"><a href="#PS3-Controller" class="headerlink" title="PS3 Controller"></a>PS3 Controller</h2><p>joystick control: <code>sudo sixad -s</code></p><p><a href="https://support.playstation.com/s/article/PS3-Pair-and-Assign-Controllers?language=en_US">PS3 controller usage</a></p><h2 id="Run-Navigation"><a href="#Run-Navigation" class="headerlink" title="Run Navigation"></a>Run Navigation</h2><p>Run <code>$ roslaunch mb_setting amcl_demo.launch</code></p><ul><li>Set <code>Fixed Frame</code> in <code>Global Options</code> as <code>map</code></li><li>Set initial pose with <code>2D Pose Estimate</code></li><li>Set target pose with <code>2D Nav goal</code></li></ul><h2 id="Button-Detection"><a href="#Button-Detection" class="headerlink" title="Button Detection"></a>Button Detection</h2><ul><li><p>Starting the button detection</p><ul><li><p>On server (requires 2GB GPU):</p><ul><li>Pre-requisties: <code>Tensorflow</code>, <code>flask</code></li><li>Clone <a href="https://github.com/Dzhange/ocr-rcnn-v2">OCR-RCNN: An Accurate and Efficient Framework for Elevator Button Recognition</a> to server</li><li>Download pre-trained weights as described in the repo above.</li><li>run <code>python server_inference.py</code>, this will start a flask server on port <code>30001</code>.<!-- * Copy the code in `folder` (stored on the robot) to the server --></li></ul><!-- * Run `python detect_ros.py` on the robot./ --></li><li><p>On robot, run the following commands:<br>Configure IP address of the server on robot to communicate with the robot</p><pre><code class="hljs shell"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> elevator_ws/src/elev_button_detection/src/</span><span class="hljs-meta">$</span><span class="bash"> python detect_ros.py</span></code></pre></li></ul></li></ul><h2 id="Button-push"><a href="#Button-push" class="headerlink" title="Button push"></a>Button push</h2><ul><li>Start button push<br>  <code>roslaunch elev_button_push elev_button_push.launch</code></li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Courses</category>
-      
-      <category>Fall 2020</category>
-      
-      <category>CS283</category>
-      
-      <category>Project</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Robotics</tag>
       
     </tags>
     
@@ -112,139 +54,6 @@
     <tags>
       
       <tag>Computer Architecture</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Week 15 Schedule, Fall 2020</title>
-    <link href="/2020/12/15/Week-15-Schedule-Fall-2020/"/>
-    <url>/2020/12/15/Week-15-Schedule-Fall-2020/</url>
-    
-    <content type="html"><![CDATA[<h3 id="CS211-TA"><a href="#CS211-TA" class="headerlink" title="CS211 TA"></a>CS211 TA</h3><ul><li><input checked="" disabled="" type="checkbox"> Final Problems Q2 (ddl: Dec.18)</li><li><input checked="" disabled="" type="checkbox"> HW4 Q2 grading (ddl: Dec.30)</li><li><input checked="" disabled="" type="checkbox"> Lab2 grading (ddl: Dec.30)</li><li><input checked="" disabled="" type="checkbox"> Lab3 grading (ddl: Dec.30)</li></ul><h3 id="CS283-Robotics"><a href="#CS283-Robotics" class="headerlink" title="CS283 Robotics"></a>CS283 Robotics</h3><ul><li><input checked="" disabled="" type="checkbox"> HW4 (ddl: Dec.20, Sun)</li></ul><ul><li><strong>Elevarot Robot Project</strong><ul><li><input checked="" disabled="" type="checkbox"> Read code</li></ul></li></ul><h3 id="Research"><a href="#Research" class="headerlink" title="Research"></a>Research</h3><ul><li><input checked="" disabled="" type="checkbox"> Perform more experiments</li><li><input checked="" disabled="" type="checkbox"> Read papers about MIT Cheetah</li></ul><h3 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h3><ul><li><input checked="" disabled="" type="checkbox"> Apply for more universities (ddl: Jan.15)</li></ul><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul><li><input checked="" disabled="" type="checkbox"> Orchestra rehearsal (Dec.19, Sat)</li><li><input checked="" disabled="" type="checkbox"> New Year Party performing (Dec.20, Sun)</li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Schedule</category>
-      
-      <category>Fall 2020</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Schedule</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Memoirs of XinGuang School</title>
-    <link href="/2020/12/14/Memoirs-of-XinGuang/"/>
-    <url>/2020/12/14/Memoirs-of-XinGuang/</url>
-    
-    <content type="html"><![CDATA[<p><a href="https://new-play.tudou.com/v/161984723.html?spm=a2h0k.8191414.0.0&amp;from=s1.8-1-1.2">https://new-play.tudou.com/v/161984723.html?spm=a2h0k.8191414.0.0&amp;from=s1.8-1-1.2</a></p><p>To be continued...</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Life</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Life</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Week 14 Schedule, Fall 2020</title>
-    <link href="/2020/12/07/Week-14-Schedule-Fall-2020/"/>
-    <url>/2020/12/07/Week-14-Schedule-Fall-2020/</url>
-    
-    <content type="html"><![CDATA[<h3 id="CS211-TA"><a href="#CS211-TA" class="headerlink" title="CS211 TA"></a>CS211 TA</h3><ul><li><input checked="" disabled="" type="checkbox"> HW3 Q1 solution and grading (ddl: Dec.9)</li><li><input checked="" disabled="" type="checkbox"> Quiz 9 Grading</li><li><input checked="" disabled="" type="checkbox"> Final (ddl: Dec.11)</li></ul><h3 id="CS283-Course"><a href="#CS283-Course" class="headerlink" title="CS283 Course"></a>CS283 Course</h3><ul><li><input checked="" disabled="" type="checkbox"> HW4 (ddl: Dec.20)</li></ul><ul><li><strong>Project (button push)</strong><ul><li><input checked="" disabled="" type="checkbox"> Read code <code>MARS_BUTTON_PUSH</code></li><li><input checked="" disabled="" type="checkbox"> Meet with professor</li></ul></li></ul><h3 id="Research"><a href="#Research" class="headerlink" title="Research"></a>Research</h3><ul><li><input checked="" disabled="" type="checkbox"> Read papers about MIT Cheetah</li></ul><h3 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h3><ul><li><input checked="" disabled="" type="checkbox"> Apply for more schools</li></ul><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul><li><input checked="" disabled="" type="checkbox"> Orchestra rehearsal</li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Schedule</category>
-      
-      <category>Fall 2020</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Schedule</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Week 13 Schedule, Fall 2020</title>
-    <link href="/2020/11/30/Week-13-Schedule-Fall-2020/"/>
-    <url>/2020/11/30/Week-13-Schedule-Fall-2020/</url>
-    
-    <content type="html"><![CDATA[<h3 id="CS211-TA"><a href="#CS211-TA" class="headerlink" title="CS211 TA"></a>CS211 TA</h3><ul><li><input checked="" disabled="" type="checkbox"> Lab1 grading</li><li><input checked="" disabled="" type="checkbox"> HW3 Q1 solution (ddl: Dec.2)</li></ul><h3 id="CS283-Course"><a href="#CS283-Course" class="headerlink" title="CS283 Course"></a>CS283 Course</h3><ul><li><input checked="" disabled="" type="checkbox"> HW4 (ddl: Dec.10)</li></ul><ul><li><strong>Project (button push)</strong><ul><li><input checked="" disabled="" type="checkbox"> Learn ROS <code>tf2</code> package</li><li><input checked="" disabled="" type="checkbox"> Read code <code>MARS_BUTTON_PUSH</code></li><li><input checked="" disabled="" type="checkbox"> Intermediate Report (ddl: Dec.3)</li></ul></li></ul><h3 id="Research"><a href="#Research" class="headerlink" title="Research"></a>Research</h3><ul><li><input checked="" disabled="" type="checkbox"> Read papers about MIT Cheetah</li></ul><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul><li><input checked="" disabled="" type="checkbox"> Orchestra rehearsal Sat</li><li><input checked="" disabled="" type="checkbox"> Orchestra rehearsal Sun</li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Schedule</category>
-      
-      <category>Fall 2020</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Schedule</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Week 12 Schedule, Fall 2020</title>
-    <link href="/2020/11/23/Week-12-Schedule-Fall-2020/"/>
-    <url>/2020/11/23/Week-12-Schedule-Fall-2020/</url>
-    
-    <content type="html"><![CDATA[<h3 id="CS211-TA"><a href="#CS211-TA" class="headerlink" title="CS211 TA"></a>CS211 TA</h3><ul><li><input checked="" disabled="" type="checkbox"> HW4 check </li><li><input checked="" disabled="" type="checkbox"> HW3 Q1 solution (ddl: Dec.2)</li></ul><ul><li><strong>Lab1 grading (ddl: Dec.1)</strong><ul><li><input checked="" disabled="" type="checkbox"> Learn Sniper</li><li><input checked="" disabled="" type="checkbox"> Read some reports and try to fully understand Lab1</li><li><input checked="" disabled="" type="checkbox"> Grade reports</li><li><input checked="" disabled="" type="checkbox"> Run all the code and finish grading</li></ul></li></ul><h3 id="CS283-Course"><a href="#CS283-Course" class="headerlink" title="CS283 Course"></a>CS283 Course</h3><ul><li><input checked="" disabled="" type="checkbox"> Midterm (Nov.24)</li><li><input checked="" disabled="" type="checkbox"> HW4 (ddl: Dec.10) (Continue next week)</li></ul><ul><li><strong>Project (button push)</strong> (Continue next week)<ul><li><input checked="" disabled="" type="checkbox"> Learn ROS <code>tf2</code> package</li><li><input checked="" disabled="" type="checkbox"> Read code <code>MARS_BUTTON_PUSH</code></li><li><input checked="" disabled="" type="checkbox"> Intermediate Report (ddl: Dec.3)</li></ul></li></ul><h3 id="Research"><a href="#Research" class="headerlink" title="Research"></a>Research</h3><ul><li><strong>Slimdog</strong><ul><li><input checked="" disabled="" type="checkbox"> Fix the legs</li><li><input checked="" disabled="" type="checkbox"> Do experiments</li></ul></li></ul><ul><li><input checked="" disabled="" type="checkbox"> Reimbursement</li><li><input checked="" disabled="" type="checkbox"> Read papers about MIT Cheetah (Continue next week)</li></ul><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul><li><input checked="" disabled="" type="checkbox"> Orchestra rehearsal </li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Schedule</category>
-      
-      <category>Fall 2020</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Schedule</tag>
       
     </tags>
     
@@ -315,60 +124,6 @@
   
   
   <entry>
-    <title>Slimdog</title>
-    <link href="/2020/11/19/Slimdog/"/>
-    <url>/2020/11/19/Slimdog/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Slimdog-Project"><a href="#Slimdog-Project" class="headerlink" title="Slimdog Project"></a>Slimdog Project</h1><p>Member: Zhai Keyan, Li Chu&#39;an<br>Supervisor: Andre Rosendo</p><p>Paper on arXiv: <a href="https://arxiv.org/abs/2101.09961">https://arxiv.org/abs/2101.09961</a>.</p><h2 id="Experiments"><a href="#Experiments" class="headerlink" title="Experiments"></a>Experiments</h2><p><img src="Slimdog1.JPG" alt="Slimdog"></p><h2 id="Kinovea-Analysis"><a href="#Kinovea-Analysis" class="headerlink" title="Kinovea Analysis"></a>Kinovea Analysis</h2><h3 id="No-support"><a href="#No-support" class="headerlink" title="No support"></a>No support</h3><p align="center"><video width="480" height="320" controls><source src="No_P1_R1_Kinovea3.mp4"></video></p><h3 id="Minimum-support"><a href="#Minimum-support" class="headerlink" title="Minimum support"></a>Minimum support</h3><p align="center"><video width="480" height="320" controls><source src="Min_P1_R1_Kinovea3.mp4"></video></p><h3 id="Reducing-support"><a href="#Reducing-support" class="headerlink" title="Reducing support"></a>Reducing support</h3><p align="center"><video width="480" height="320" controls><source src="Red_P1_R3_Kinovea3.mp4"></video></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Research</category>
-      
-      <category>LIMA</category>
-      
-      <category>Slimdog</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Robotics</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>My Desktop Setup</title>
-    <link href="/2020/11/19/My_Desktop/"/>
-    <url>/2020/11/19/My_Desktop/</url>
-    
-    <content type="html"><![CDATA[<h1 id="My-Desktop-Setup"><a href="#My-Desktop-Setup" class="headerlink" title="My Desktop Setup"></a>My Desktop Setup</h1><p>买各种东西基本上把助教和实习工资都花光了😢 ，好在奖学金马上就要发了🤣 。</p><h2 id="Dormitory"><a href="#Dormitory" class="headerlink" title="Dormitory"></a>Dormitory</h2><p><img src="Dorm1.png" alt="黄色 ？？？"></p><p><img src="Dorm2.png" alt="(骚)紫色"></p><p><img src="Dorm3.png" alt="游戏模式"></p><h2 id="Lab"><a href="#Lab" class="headerlink" title="Lab"></a>Lab</h2><p>LIMA Lab</p><p><img src="Lab2.png" alt="好好学习，天天向上"></p><p>开辟新领地</p><p><img src="Lab2_3.JPG" alt="这是我独享的moment"></p><p><img src="Lab2_1.JPG" alt="简陋的实验场地"></p><p>MARS Lab</p><p><img src="MARS1.JPG" alt="做Elevator Project的地方"></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Life</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Life</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Lab1</title>
     <link href="/2020/11/18/Lab1/"/>
     <url>/2020/11/18/Lab1/</url>
@@ -402,33 +157,6 @@
   
   
   <entry>
-    <title>Curriculum Vitae</title>
-    <link href="/2020/11/17/CV/"/>
-    <url>/2020/11/17/CV/</url>
-    
-    <content type="html"><![CDATA[<h1 id="My-Resume"><a href="#My-Resume" class="headerlink" title="My Résumé"></a>My Résumé</h1><p>🙃</p><p><a href="https://github.com/NaiveD/NaiveD.github.io/raw/code/source/_posts/CV/CV_zky.pdf">CV_zky.pdf</a></p><!-- <object data="./CV_zky.pdf" type="application/pdf" width="100%" height="677px"> -->]]></content>
-    
-    
-    <categories>
-      
-      <category>Others</category>
-      
-      <category>Profiles</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Others</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>MoveIt!</title>
     <link href="/2020/11/17/MoveIt!/"/>
     <url>/2020/11/17/MoveIt!/</url>
@@ -445,37 +173,6 @@
       <category>CS283</category>
       
       <category>ROS</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Robotics</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Elevator Robot Project</title>
-    <link href="/2020/11/17/Elevator_Robot_Project/"/>
-    <url>/2020/11/17/Elevator_Robot_Project/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Elevator-Robot-Project"><a href="#Elevator-Robot-Project" class="headerlink" title="Elevator Robot Project"></a>Elevator Robot Project</h1><p>A project of the 2020 Robotics Course of the School of Information Science and Technology (SIST) of ShanghaiTech University<br><a href="https://robotics.shanghaitech.edu.cn/teaching/robotics2020">https://robotics.shanghaitech.edu.cn/teaching/robotics2020</a></p><p>Team Member: Zhai Keyan, Li Chu&#39;an, Zhang Ge<br>Supervisor: Hou Jiawei, Sören Schwertfeger</p><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>In this project, we tried to make a robot capable of taking elevators autonomously. With the ability to take elevators and move vertically inside a building, the mobility of wheeled robots can be significantly improved.</p><h2 id="System-Description"><a href="#System-Description" class="headerlink" title="System Description"></a>System Description</h2><h3 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h3><p>Our elevator robot includes a complex hardware system consists of the following parts:</p><ul><li><strong>Base platform</strong> - Jackal</li><li><strong>Manipulator</strong> - Kinova</li><li><strong>Camera</strong> - Intel Realsense</li><li><strong>3D LiDAR</strong> - Velodyne</li></ul><p><img src="Elevator_Robot.JPG" alt="The Elevator Robot"></p><h3 id="Software"><a href="#Software" class="headerlink" title="Software"></a>Software</h3><p>The whole software system is a multi-phased pipeline based on ROS melodic on Ubuntu 18.04.</p><ul><li><strong>Localization and Navigation</strong> - AMCL algorithm</li></ul><p><img src="Navi.png" alt="AMCL Navigation"></p><ul><li><strong>Button Detection</strong> - OCR-RCNN algorithm</li></ul><p><img src="Button_Detect.JPG" alt="Button Detection"></p><ul><li><strong>Button Push</strong> - MoveIt!</li></ul><p><img src="Button_Push.jpg" alt="Button Push"></p><p>The upper left image indicates a random starting pose of the manipulator, represented by the orange arm in RViz in the right.</p><p>The lower left image indicates the target pose of the manipulator where it pushes the button with the pose represented by the red arrow in RViz in the right.</p><h2 id="Demos"><a href="#Demos" class="headerlink" title="Demos"></a>Demos</h2><p align="center"><video width="480" height="320" controls><source src="elevator.mp4"></video></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Courses</category>
-      
-      <category>Fall 2020</category>
-      
-      <category>CS283</category>
-      
-      <category>Project</category>
       
     </categories>
     
@@ -584,11 +281,11 @@
   
   
   <entry>
-    <title>ROS Workspace</title>
-    <link href="/2020/11/17/ROS_Workspace/"/>
-    <url>/2020/11/17/ROS_Workspace/</url>
+    <title>ROS Services and Parameters</title>
+    <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
+    <url>/2020/11/17/ROS_Services_and_Parameters/</url>
     
-    <content type="html"><![CDATA[<h1 id="ROS-Workspace"><a href="#ROS-Workspace" class="headerlink" title="ROS Workspace"></a>ROS Workspace</h1><h2 id="Create-a-ROS-workspace"><a href="#Create-a-ROS-workspace" class="headerlink" title="Create a ROS workspace"></a>Create a ROS workspace</h2><p>::Create and build a <strong>catkin workspace</strong>:::</p><pre><code class="hljs elixir"><span class="hljs-variable">$ </span>mkdir -p ~<span class="hljs-regexp">/catkin_ws/src</span><span class="hljs-variable">$ </span>cd ~<span class="hljs-regexp">/catkin_ws/</span><span class="hljs-variable">$ </span>catkin_make</code></pre><p>This will create a <code>CMakeLists.txt</code> link in your <code>src/</code> folder.<br>This will also create a <code>build/</code> and <code>devel/</code> folder in your current working directory.<br>Inside <code>devel</code>, there are several <code>setup.*sh</code> files. Source any of them to overlay this workspace on top os your environment.</p><p><code>$ source devel/setup.*sh</code></p><p>Make sure <code>ROS_PACKAGE_PATH</code> environment variable includes the directory.</p><pre><code class="hljs awk">$ echo <span class="hljs-variable">$ROS_PACKAGE_PATH</span><span class="hljs-regexp">/home/</span>zhaiky<span class="hljs-regexp">/cakin_ws/</span>src:<span class="hljs-regexp">/opt/</span>ros<span class="hljs-regexp">/melodic/</span>share</code></pre><h2 id="catkin-workspaces"><a href="#catkin-workspaces" class="headerlink" title="catkin workspaces:"></a><strong>catkin workspaces</strong>:</h2><p><strong>catkin workspaces</strong> can be built as </p><ol><li>A standalone project, like normal <code>cmake</code> projects</li><li>Also provides the concept of workspaces, where you can build multiple, interdependent packages together all at once.</li></ol><p>A <strong>catkin workspace</strong> is a <strong>folder</strong> where you modify, build, and install <strong>catkin packages</strong>. </p><p>Typical <strong>catkin workspace</strong> layout:</p><pre><code class="hljs crystal">workspace_folder/         -- WORKSPACE  src/                    -- SOURCE SPACE    CMakeLists.txt        -- The <span class="hljs-string">&#x27;toplevel&#x27;</span> CMake file    package_1/      CMakeLists.txt      package.xml      ...    package_n/      CATKIN_IGNORE       -- Optional empty file to exclude package_n from being processed      CMakeLists.txt      package.xml      ...  build/                  -- BUILD SPACE    CATKIN_IGNORE         -- Keeps catkin from walking this directory  devel/                  -- DEVELOPMENT SPACE (set by CATKIN_DEVEL_PREFIX)    bin/    etc/    <span class="hljs-keyword">include</span>/    <span class="hljs-class"><span class="hljs-keyword">lib</span>/</span>    share/    .catkin    env.bash    setup.bash    setup.sh    ...  install/                -- INSTALL SPACE (set by CMAKE_INSTALL_PREFIX)    bin/    etc/    <span class="hljs-keyword">include</span>/    <span class="hljs-class"><span class="hljs-keyword">lib</span>/</span>    share/    .catkin                 env.bash    setup.bash    setup.sh    ...</code></pre><p>Four spaces: <code>src/</code>, <code>build/</code>, <code>devel/</code>, and <code>install/</code>.</p><h3 id="Source-Space-src"><a href="#Source-Space-src" class="headerlink" title="Source Space src/"></a>Source Space <code>src/</code></h3><ul><li>contains source code of catkin packages</li><li>where you can extract/checkout/clone source code for the packages you want to build.</li><li>each folder <code>package_1</code>...<code>package_n</code> within the source space contains one or more <strong>catkin packages</strong></li></ul><h3 id="Build-Space-build"><a href="#Build-Space-build" class="headerlink" title="Build Space build/"></a>Build Space <code>build/</code></h3><ul><li>where <code>CMake</code> is invoked to build the catkin packages in the source space</li></ul><h3 id="Development-Space-devel"><a href="#Development-Space-devel" class="headerlink" title="Development Space devel/"></a>Development Space <code>devel/</code></h3><ul><li>where built targets are placed prior to being installed</li></ul><h3 id="Install-Space-install"><a href="#Install-Space-install" class="headerlink" title="Install Space install/"></a>Install Space <code>install/</code></h3><ul><li>Once targets are built, they can be installed into the install space by invoking the install target.</li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS-Services-and-Parameters"><a href="#ROS-Services-and-Parameters" class="headerlink" title="ROS Services and Parameters"></a>ROS Services and Parameters</h1><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><p><a href="http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">ROS/Tutorials/UnderstandingServicesParams - ROS Wiki</a><br><a href="http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">ROS/Tutorials/WritingServiceClient(c++) - ROS Wiki</a>  </p></blockquote>]]></content>
     
     
     <categories>
@@ -615,11 +312,11 @@
   
   
   <entry>
-    <title>ROS Services and Parameters</title>
-    <link href="/2020/11/17/ROS_Services_and_Parameters/"/>
-    <url>/2020/11/17/ROS_Services_and_Parameters/</url>
+    <title>ROS Workspace</title>
+    <link href="/2020/11/17/ROS_Workspace/"/>
+    <url>/2020/11/17/ROS_Workspace/</url>
     
-    <content type="html"><![CDATA[<h1 id="ROS-Services-and-Parameters"><a href="#ROS-Services-and-Parameters" class="headerlink" title="ROS Services and Parameters"></a>ROS Services and Parameters</h1><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><blockquote><p><a href="http://wiki.ros.org/ROS/Tutorials/UnderstandingServicesParams">ROS/Tutorials/UnderstandingServicesParams - ROS Wiki</a><br><a href="http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29">ROS/Tutorials/WritingServiceClient(c++) - ROS Wiki</a>  </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="ROS-Workspace"><a href="#ROS-Workspace" class="headerlink" title="ROS Workspace"></a>ROS Workspace</h1><h2 id="Create-a-ROS-workspace"><a href="#Create-a-ROS-workspace" class="headerlink" title="Create a ROS workspace"></a>Create a ROS workspace</h2><p>::Create and build a <strong>catkin workspace</strong>:::</p><pre><code class="hljs elixir"><span class="hljs-variable">$ </span>mkdir -p ~<span class="hljs-regexp">/catkin_ws/src</span><span class="hljs-variable">$ </span>cd ~<span class="hljs-regexp">/catkin_ws/</span><span class="hljs-variable">$ </span>catkin_make</code></pre><p>This will create a <code>CMakeLists.txt</code> link in your <code>src/</code> folder.<br>This will also create a <code>build/</code> and <code>devel/</code> folder in your current working directory.<br>Inside <code>devel</code>, there are several <code>setup.*sh</code> files. Source any of them to overlay this workspace on top os your environment.</p><p><code>$ source devel/setup.*sh</code></p><p>Make sure <code>ROS_PACKAGE_PATH</code> environment variable includes the directory.</p><pre><code class="hljs awk">$ echo <span class="hljs-variable">$ROS_PACKAGE_PATH</span><span class="hljs-regexp">/home/</span>zhaiky<span class="hljs-regexp">/cakin_ws/</span>src:<span class="hljs-regexp">/opt/</span>ros<span class="hljs-regexp">/melodic/</span>share</code></pre><h2 id="catkin-workspaces"><a href="#catkin-workspaces" class="headerlink" title="catkin workspaces:"></a><strong>catkin workspaces</strong>:</h2><p><strong>catkin workspaces</strong> can be built as </p><ol><li>A standalone project, like normal <code>cmake</code> projects</li><li>Also provides the concept of workspaces, where you can build multiple, interdependent packages together all at once.</li></ol><p>A <strong>catkin workspace</strong> is a <strong>folder</strong> where you modify, build, and install <strong>catkin packages</strong>. </p><p>Typical <strong>catkin workspace</strong> layout:</p><pre><code class="hljs crystal">workspace_folder/         -- WORKSPACE  src/                    -- SOURCE SPACE    CMakeLists.txt        -- The <span class="hljs-string">&#x27;toplevel&#x27;</span> CMake file    package_1/      CMakeLists.txt      package.xml      ...    package_n/      CATKIN_IGNORE       -- Optional empty file to exclude package_n from being processed      CMakeLists.txt      package.xml      ...  build/                  -- BUILD SPACE    CATKIN_IGNORE         -- Keeps catkin from walking this directory  devel/                  -- DEVELOPMENT SPACE (set by CATKIN_DEVEL_PREFIX)    bin/    etc/    <span class="hljs-keyword">include</span>/    <span class="hljs-class"><span class="hljs-keyword">lib</span>/</span>    share/    .catkin    env.bash    setup.bash    setup.sh    ...  install/                -- INSTALL SPACE (set by CMAKE_INSTALL_PREFIX)    bin/    etc/    <span class="hljs-keyword">include</span>/    <span class="hljs-class"><span class="hljs-keyword">lib</span>/</span>    share/    .catkin                 env.bash    setup.bash    setup.sh    ...</code></pre><p>Four spaces: <code>src/</code>, <code>build/</code>, <code>devel/</code>, and <code>install/</code>.</p><h3 id="Source-Space-src"><a href="#Source-Space-src" class="headerlink" title="Source Space src/"></a>Source Space <code>src/</code></h3><ul><li>contains source code of catkin packages</li><li>where you can extract/checkout/clone source code for the packages you want to build.</li><li>each folder <code>package_1</code>...<code>package_n</code> within the source space contains one or more <strong>catkin packages</strong></li></ul><h3 id="Build-Space-build"><a href="#Build-Space-build" class="headerlink" title="Build Space build/"></a>Build Space <code>build/</code></h3><ul><li>where <code>CMake</code> is invoked to build the catkin packages in the source space</li></ul><h3 id="Development-Space-devel"><a href="#Development-Space-devel" class="headerlink" title="Development Space devel/"></a>Development Space <code>devel/</code></h3><ul><li>where built targets are placed prior to being installed</li></ul><h3 id="Install-Space-install"><a href="#Install-Space-install" class="headerlink" title="Install Space install/"></a>Install Space <code>install/</code></h3><ul><li>Once targets are built, they can be installed into the install space by invoking the install target.</li></ul>]]></content>
     
     
     <categories>
@@ -725,95 +422,6 @@
     <tags>
       
       <tag>Computer Architecture</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Week 11 Schedule, Fall 2020</title>
-    <link href="/2020/11/16/Week-11-Schedule-Fall-2020/"/>
-    <url>/2020/11/16/Week-11-Schedule-Fall-2020/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Week-11-Schedule-Fall-2020"><a href="#Week-11-Schedule-Fall-2020" class="headerlink" title="Week 11 Schedule, Fall 2020"></a>Week 11 Schedule, Fall 2020</h1><h3 id="CS211-TA"><a href="#CS211-TA" class="headerlink" title="CS211 TA"></a>CS211 TA</h3><ul><li><input checked="" disabled="" type="checkbox"> Lab1 grading (ddl: Dec.1) (Continue next week)</li><li><input checked="" disabled="" type="checkbox"> Quiz7 grading</li><li><input checked="" disabled="" type="checkbox"> Lab3 check</li><li><input checked="" disabled="" type="checkbox"> Midterm solution<!-- - [ ] Hw3 Q1 solution (ddl: Dec.2) --></li></ul><h3 id="CS283-Course"><a href="#CS283-Course" class="headerlink" title="CS283 Course"></a>CS283 Course</h3><!-- - [ ] Proj: button push (continue next week) --><!-- - [ ] HW4 (ddl: Dec.3) --><ul><li><input checked="" disabled="" type="checkbox"> Prepare for Midterm (Nov.24)<!-- - [ ] Reading --></li></ul><h3 id="Research"><a href="#Research" class="headerlink" title="Research"></a>Research</h3><ul><li><input checked="" disabled="" type="checkbox"> Experimental setup</li><li><input checked="" disabled="" type="checkbox"> Do experiments (Continue next week)<!-- - [ ] Read BO tutorial (continue next week) --></li><li><input checked="" disabled="" type="checkbox"> Reimbursement</li></ul><h3 id="Graduation"><a href="#Graduation" class="headerlink" title="Graduation"></a>Graduation</h3><ul><li><input checked="" disabled="" type="checkbox"> Mission book</li></ul><h3 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h3><ul><li><input checked="" disabled="" type="checkbox"> Orchestra rehearsal </li></ul>]]></content>
-    
-    
-    <categories>
-      
-      <category>Schedule</category>
-      
-      <category>Fall 2020</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Schedule</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Jean-Michel Basquiat</title>
-    <link href="/2020/06/21/Basquiat/"/>
-    <url>/2020/06/21/Basquiat/</url>
-    
-    <content type="html"><![CDATA[<h1 id="巴斯奎特个案研究"><a href="#巴斯奎特个案研究" class="headerlink" title="巴斯奎特个案研究"></a>巴斯奎特个案研究</h1><p>《现代艺术导论》课程的期末论文，查阅了大量原始英文资料，看的头疼。还看了个大概80分钟的原版纪录片 <a href="/2020/06/21/Rage_to_Riches/" title="Rage to Riches">Rage to Riches</a>, 写了一万多字的整理。</p><p>最后论文是一天糊出来的，要求三千字，写了将近八千字。</p><p>花了这么多心思，这门课最后当然是拿了<code>A+</code>，只不过后来才意识到这是多么可怕的内卷行为😇，以后还是别这么搞了吧。</p><p>请欣赏拙作：</p><!-- （网页版只能用电脑看，移动端请下载） --><!-- <div class="row">    <embed src="./Basquiat.pdf" width="100%" height="550" type="application/pdf"></div> --><p><a href="https://github.com/NaiveD/NaiveD.github.io/raw/code/source/_posts/Basquiat/Basquiat.pdf">Basquiat.pdf</a></p><!-- <object data="./Basquiat.pdf" type="application/pdf" width="100%" height="677px"> -->]]></content>
-    
-    
-    <categories>
-      
-      <category>Courses</category>
-      
-      <category>Spring 2020</category>
-      
-      <category>ARTS1405</category>
-      
-      <category>Final Paper</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Arts</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Rage to Riches</title>
-    <link href="/2020/06/21/Rage_to_Riches/"/>
-    <url>/2020/06/21/Rage_to_Riches/</url>
-    
-    <content type="html"><![CDATA[<h1 id="纪录片《巴斯奎特：一鸣惊人的涂鸦艺术家》2017-Rage-to-Riches"><a href="#纪录片《巴斯奎特：一鸣惊人的涂鸦艺术家》2017-Rage-to-Riches" class="headerlink" title="纪录片《巴斯奎特：一鸣惊人的涂鸦艺术家》2017 Rage to Riches"></a>纪录片《巴斯奎特：一鸣惊人的涂鸦艺术家》2017 Rage to Riches</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Jean-Michel : creative; taken New York by storm,; his work is screaming revolutionary intentions; black artist, unbelievable talent and unbelievable charisma (个人魅力);</p><p>巴斯奎特认为别人对自己的image：wild monkey man，并且完全不在意</p><p>和巴斯奎特一起的艺术家：从完全贫穷到拥有很多钱，不知道该干什么</p><p>有很多resentment (怨恨)，envy(嫉妒)，而且肯定有racist edge（种族主义）。</p><p>只要一个人将自己看作一个艺术家或是一个黑人艺术家，就会变得很复杂。</p><p>巴斯奎特的妹妹：为巴斯奎特的死伤心，认为如果想要了解巴斯奎特这个人，那就应该去看他的作品。</p><p>巴斯奎特本人以及他的作品中是否有任何anger(愤怒)？<br>当然有，但是没有说是什么。</p><p><em>安迪沃霍尔（波普艺术大佬）</em>喜欢与巴斯奎特一起创作。</p><h2 id="童年、家庭-2分50秒"><a href="#童年、家庭-2分50秒" class="headerlink" title="童年、家庭 2分50秒"></a>童年、家庭 2分50秒</h2><p>巴斯奎特对童年最早最生动的记忆：被车撞，在街上玩，7岁。</p><p>巴斯奎特的妹妹(Lisane)回忆： 住在Brooklyn，住在Flatbush。巴斯奎特7岁时，在外面玩，和一群朋友玩stick ball（类似棒球的街头游戏，一般是凑齐一拨人就开始玩，在美国东北部流行，尤其是纽约和费城）。妈妈让Lisane去叫巴斯奎特吃晚饭，于是他跑步穿过街头，忘了拿什么东西，又回头。之前他跑过街头的时候，一辆车刚好转弯进入这条街，于是就撞到了巴斯奎特。<br>巴斯奎特在医院里呆了很长时间。他的母亲给巴斯奎特送了一个礼物，是一本书，Gray’s Anatomy (Henry Gray’s Anatomy of the Human Body) 格雷氏解剖学。母亲希望巴斯奎特能有机会看到自己的身体，因为和他身体的恢复和重建有关系。巴斯奎特的脾脏被切除了。这本书对他的影响非常大。</p><p>巴斯奎特的妹妹（Jeanine）回忆：父亲每天下班回家会玩音乐，一直玩到晚上睡觉。他会演奏各种不同类型的音乐。Jazz爵士乐影响很大，但他也会演奏古典音乐和Donna Summer（1948-2012，著名流行乐歌手，五度获得格莱美奖，有“迪斯科女皇” The Queen of Disco之称）。</p><p>巴斯奎特的妹妹(Lisane)回忆：母亲会带三个孩子去博物馆。<br>旁白：孩子去博物馆参观，可以培养对于艺术的感知，了解艺术几个世纪以来的发展。巴斯奎特极其顽皮捣蛋，极其有创造力，一直画画。</p><p>::巴斯奎特 有自己的 Biography，11年级退学::</p><p>巴斯奎特的妹妹（Jeanine）回忆：不会预料到自己的哥哥会变得有名，但是巴斯奎特自己一直觉得自己可以出名。</p><p>巴斯奎特的妹妹(Lisane)回忆：一直相信巴斯奎特的有创造力的影响只是来源于他的内在，就是自然而然就有了。</p><p>Downtown 81 ：【The film, directed by  <a href="https://en.m.wikipedia.org/wiki/Edo_Bertoglio">Edo Bertoglio</a>  and written and produced by  <a href="https://en.m.wikipedia.org/wiki/Glenn_O%27Brien">Glenn O&#39;Brien</a>  and Patrick Montgomery, with post-production in 1999-2000 by  <a href="https://en.m.wikipedia.org/wiki/Glenn_O%27Brien">Glenn O&#39;Brien</a>  and  <a href="https://en.m.wikipedia.org/wiki/Maripol">Maripol</a> , is a rare real-life snapshot of an ultra-hip subculture of post-punk era  <a href="https://en.m.wikipedia.org/wiki/Manhattan">Manhattan</a> . 摄于1980-1981，2000年上映的美国电影，a rare real-life snapshot of an ultra-hip subculture of post-punk era Manhattan. 巴斯奎特和其他一些Village (The East village, a neighborhood on the east side of Lower Manhattan in NYC.) 艺术家主演，比如 James Chance, Amos Poe, Walter Steding, Tav Falco and Elliott Murphy。该电影是一个bizarre (奇异的) elliptical (隐晦的) urban fairy tale (都市童话).  】<br>其中一段台词：背景是巴斯奎特在涂鸦。 The city looked big, I felt big, because I was part of the landscape (景色). I’m an artist. When you tell people that they usually say, “What’s your medium?” I usually say, “Extra large.”</p><p>巴斯奎特的妹妹（Jeanine）回忆：巴斯奎特离家出走是因为他的内心一直有一些东西在燃烧。他做一切他需要做的事，就为了成为一个画家，为了成为一个艺术家，为了表达他自己。妹妹认为这需要极大的胆量才能做这样的事。</p><h2 id="NYC-6分08秒"><a href="#NYC-6分08秒" class="headerlink" title="NYC 6分08秒"></a>NYC 6分08秒</h2><p>Jeffrey Deitch (Art advisory Service Citibank 1979-88)：1970年代中期至1980年代早期的的NYC，是一个creative paradise（创作天堂）。</p><p>James Chance (音乐家)：NYC was falling apart  (在瓦解)，going bankrupt (经历破产)。直（性取向，异性恋者）的人全都离开，所有疯狂的艺术家聚集在这里。</p><p>Suzanne Mallouk (psychiatrist 精神病学家): The time was electric. 任何事都是有可能的。</p><p>Jeffrey Deitch：非常便宜的租金。80刀/月也能活。</p><h2 id="SAMO-涂鸦-6分50秒"><a href="#SAMO-涂鸦-6分50秒" class="headerlink" title="SAMO 涂鸦 6分50秒"></a>SAMO 涂鸦 6分50秒</h2><p>Jeffrey Deitch：1970年代晚期，几乎所有住在downtown闹市区的人，都很intrigued(感兴趣、好奇，着迷) by the remarkable conceptual graffiti of SAMO.  在Jeffrey Deitch自己住的楼里也有SAMO涂鸦，就在门上。</p><p>这网站上有一些SAMO的照片：<a href="http://www.henryflynt.org/overviews/samo.htm">http://www.henryflynt.org/overviews/samo.htm</a></p><p>Brett De Palma (Artist): 当时想SAMO一定是什么街头哲学家搞的，有人在墙上给你写一些选择题，问一些很深刻的关于价值观的问题。</p><p>Jennifer (Stein) Vonholstein (Artist): SAMO 到处都有。所有建筑上都有。我为此感到激动。</p><p>Michael Holman (Writer, filmmaker)： 所有downtown（::所谓downtown，就是曼哈顿下城, downtown = Lower Manhattan = Downtown Manhattan = Downtown NY::）的人都见过SAMO标记。<br>记得刚来纽约，看到这样的句子：”A pin drops like a pungent odor (刺激性臭味), copyright SAMO.”</p><p>Jeffrey Deitch：downtown有很多人讨论，“Who is SAMO?”。有人声称见过SAMO。</p><p>::Al Diaz (迪亚兹，重要人物)::：1976年秋天第一次见到巴斯奎特，第一次去City-As-School (a public high school located at 16 Clarkson Street between Hudson Street and Seventh Avenue South in the West Village of Manhattan, New York City). 迪亚兹、巴斯奎特还有其他一些对写作感兴趣的学生创办了一份高中报纸，巴斯奎特写了一篇 <em>::brilliant essay about an ideal religion that just filled all the needs and he named it SAMO.::</em><br>SAMO 命名的起源: <em>SAMO was part of the slang (俚语) back then where you would hear elderly black guys talking to each other and say, “Hey, what’s up?” And the other guy would answer, “Samo, samo.” In other words, the same old shit or the same old thing, whatever. And that’s really where we borrowed that form.</em><br>作为涂鸦艺术家，迪亚兹热爱这种format，并开始用这种这种format写很多SAMO。And then they became like SAMO as an alternative to God. 就有了这东西。</p><p>Renny Scharf (Artist)：和巴斯奎特一起，拿着马克笔，巴斯奎特写SAMO，他写自己的Jetson thing. Al Diaz，是画SAMO的另一个参与者，也一起跟着到处搞。我(Renny) 介绍他 (Diaz) 给 *Keith Haring (哈林，一个涂鸦巨佬)*，也是我在同一周遇到的人（这意思是Renny同一周遇到了哈林，又遇到了迪亚兹，然后就吧迪亚兹介绍给哈林认识，想想这说明了什么问题？）。<br>我最早到School of Visual Arts (SVA NYC, is a  for-profit art and design college  in  Manhattan ,  New York.)是在1978. 在SVA，不是所有人都是学生，巴斯奎特就不是一个学生，但是他想认识艺术家。他想和艺术家一起交往、厮混，这就是一个很自然的地方能够厮混。</p><p>Rober Starr (Artist, critic, curator 馆长、策展人): 认为有一个非常self-conscious dimension to what he did （巴斯奎特知道自己在做什么，他画SAMO不是瞎画的，有很强的自我意识，想要传达一些东西）。巴斯奎特不是在哪里画都可以的，他在距离<em>Soho</em> (a neighborhood in  Lower Manhattan  in  New York City , which in recent history came to the public&#39;s attention for being the location of many artists&#39; lofts 创作间  and art galleries, but is now better known for its variety of shops ranging from trendy upscale boutiques to national and international chain store outlets.) 非常近的地方画。</p><p>Al Diaz: SAMO是一个很成功的促销/炒作项目</p><p>Michael Holman: 第一次见巴斯奎特是在1979年4月29号，那天晚上是<em>Canal Zone party</em>，由Holman自己和一个英国艺术家Stan Peskett和Fab 5 Freddy (Fred Braithwaite 黑人)。</p><p>::<em>Fred Braithwaite (a.k.a Fab 5 Freddy 黑人，关键人物)</em>::: Canal Zone, 算是我们第一个Soho downtown party. 这个party是为了介绍涂鸦艺术家from uptown to the downtown fine art scene (把uptown的涂鸦艺术家介绍给downtown的)<br>巴斯奎特出现了。他那时候是SAMO。</p><p>Stan Peskett (Artist)：巴斯奎特从阴影中出来，我不知道他是谁。巴斯奎特说他也想做点什么，我说当然，给他一个喷雾罐。就像魔术一样，突然所有人都变得疯狂。</p><p>Jennifer (Stein) Vonholstein (Artist)：突然间，有声音，很激动，看到有人在墙上图画。</p><p> Fab 5 Freddy：巴斯奎特画了一个多选题SAMO。</p><p>Michael Holman：天啊，这是SAMO！</p><p>（可以知道，当时SAMO无处不在，大家都见过，尤其是在village。而巴斯奎特就是SAMO，在这个party上突然自曝身份，轰动效应可想而知。）</p><p>Stan Peskett：没人知道SAMO是谁，完全是神秘的。就像是<em>Banksy</em> figure（班克斯一样的人物，没有人知道是谁的街头涂鸦艺术家）</p><p>Jennifer (Stein) Vonholstein (Artist)：立马跑过去抓着巴斯奎特的手说，我一直在找你。巴斯奎特看自己带着最美的微笑说，是吗？ 我“当然”。巴：”你为什么来这里？“我说“我住在这”<br>我和他到我房间，我有书和音乐也是巴斯奎特知道并喜欢的，自然而然递给他。<br>我曾把棒球卡片上的人脸涂白，巴斯奎特很喜欢。<br>而且我有一个房间。我们一见如故/一见倾心，很棒，他说“我想和你一起做明信片” 我们一起去自动快照亭拍了照片，我做点东西，他做点东西，最终我们达成一致，“这样很好，就用这个了”<br>我们一起去街上，每天都去（卖明信片？卖艺术品？），有时能赚15美元，这就算是发财了。<br>巴斯奎特在街上用剃刀刮他的头，人们看到他说“天啊，这啥玩意儿啊”<br>我们在Jamie Canvas（SoHo的一个美术品商店）彩色复印了一些东西出来后，走在街上聊天，然后巴斯奎特从一家叫做WPA的崭新的餐厅的窗户往里看，看到了<em>Andy Warhol（安迪沃霍尔，波普艺术大佬）</em>和 Henry Geldzahler （curator）坐在桌边。巴斯奎特抓着我的胳膊说，天啊是andy。我说天啊。巴斯奎特说“你待在这里，这是个fags（苦差事，麻烦事）。“ 他就进去了，大概10分钟后出来，我就在人行道上等着。我说”怎么这么久？“ 他说“他们只有一个5，他们需要5块换成零钱” 我说“他们买了多少？” 他说“2.“ 所以他们买了一个作品上面写着”Stupid games，bad ideas“，还有一个是彩色打印的一副墨镜，我们在上面喷洒了涂改液，并重新彩打。巴斯奎特很爱Andy，见到他本人对于巴斯奎特来说是很重要的时刻。Andy Warhol买了一些巴斯奎特创作的东西，追对巴斯奎特来说是很amazing的。</p><p>Renny Scharf (Artist)：就好像“天啊，你不仅遇到了Andy Warhol，而且他还买了你的东西” 这太棒了。。。Andy就像我们的英雄人物。他重新定义了艺术家的角色可以是怎样的。</p><p>Al Diaz：巴斯奎特告诉我他买了一个明信片给Andy Warhol，他非常激动。我明白了巴斯奎特想要变得有名。在同一周，他去了Glenn O’Brien Show （这应该是个电视节目，而这个Glenn O’Brien也是之前那个Downtown 81的作者）作为SAMO. 现在他就是SAMO了。原来是我们两个人，但是现在他成为了SAMO的门面。</p><p><em>Glenn O’Brien’s TV Party 1979 (Public Access TV, NYC)</em><br>主持人：请来了NYC最language oriented of all graffiti artists — Sammo 和他的伙伴 (Sammo是主持人发音错了，被巴斯奎特纠正是SAMO，是Mr. SAMO, 是我的personal signature。这说明巴斯奎特对这一称号的重视与坚持。)主持人说在墙上看到但是不知道怎么发音（主持人是个白人，对这种黑人俚语并不了解）。<br>你每次都写一些不同的东西？还是每次都写差不多的东西？</p><p>巴斯奎特：我写过相同的东西，就是。。。It all depends (看情况)，how inspired I feel （看我灵感如何）。</p><p>Jeffrey Deitch：在某一点，你看到了涂鸦，“SAMO is dead.”</p><p>Al Diaz: 巴斯奎特在杀死SAMO，只有他才写过 “SAMO is dead,” 我从来没写过。这破坏了我们的关系。</p><p>Jeffrey Deitch：就是从这一转折点开始，巴斯奎特开始断言他自己作为艺术家让米歇尔巴斯奎特。</p><h2 id="教育-艺术学习-16分17秒"><a href="#教育-艺术学习-16分17秒" class="headerlink" title="教育 艺术学习 16分17秒"></a>教育 艺术学习 16分17秒</h2><p>从没接受正规艺术教育，就是通过参观、看艺术作品学习</p><p>卡拉瓦乔 Chiaroscuro 明暗对照法</p><p>波洛克：1950年代初，也在village。Autumn Rhythm 抽象表现发展伴随着bebop音乐和即兴创作的本质。<br>由于那时候的种族主义，很多批评家和艺术历史家不会真的精心品味这种即兴创作。</p><p>Franz Kline：笔画 书法的能量 疯狂</p><p>毕加索立体主义时期：学习了非洲人描绘图像的方式，打破了尝试再现图像到底是什么样子的欧洲艺术家整体的模具/风格，完全改变了一切，完全开放了。这种非洲的影响，是从（黑人的）故乡来的。<br>Dora Maar in An Armchair 1939</p><h2 id="电影-Downtown-81-21分13秒"><a href="#电影-Downtown-81-21分13秒" class="headerlink" title="电影 Downtown 81 21分13秒"></a>电影 Downtown 81 21分13秒</h2><p>Maripol（Producer，downtown 81）：电影Downtown 81的明星就是巴斯奎特。这部电影不像是很多人想的那样是一部纪录片，而是当时他们生活的一个童话故事。是当时挣扎的艺术家们在城市中卖作品来付房租的故事。巴斯奎特没钱、没工作。我们给他买很多画布，需要他的画给这个故事，所以他的第一个画作其实是为了这部电影。<br>Fab 5 Freddy：巴斯奎特被选为了这部电影的明星，我们也当配角有点戏份。</p><p><em>NYC</em>： The pre-gentrified (在被士绅化之前的，士绅化gentrification: the process by which an area of a city where poor people live becomes an area where middle-class people live, as they buy the houses and repair them), gritty (含沙粒的，（对不好事物）活生生的，真实的), grimy（污秽的）, extra fun New York City.</p><p>与Suzanne Mallouk（精神病学家）1981年相遇，当时巴斯奎特在拍这部电影，就住在纸片办公室门口，马上就搬到这女人家里一起住。都是两民族，两文化背景（女的一半巴勒斯坦一半英国，巴斯奎特一半波多黎各，一半海地），都有权威骄傲严厉的父亲。</p><p>巴斯奎特有些结巴，母亲不能自理，他对此很伤心，说到母亲更加结巴。</p><h2 id="乐队Band-24分28秒"><a href="#乐队Band-24分28秒" class="headerlink" title="乐队Band 24分28秒"></a>乐队Band 24分28秒</h2><p>所有艺术家，无论哪方面的，都必须在一个乐队里。Drumode by Gray，1981.<br>巴斯奎特提出要建立乐队。名字就叫“Gray” （之前那本解剖书，对巴斯奎特影响极大，巴斯奎特有一些关于同年被车撞的画作 Untitled (Crash) 1980, 1981,1980）。</p><p>Greg Tate (Writer, Musician): 巴斯奎特的音乐：collage aesthetic（拼贴艺术的美感），不管是音乐、诗歌、画作都有。</p><p>Suzanne Mallouk：巴斯奎特一直在作画，有自己从来没有见过的驱动力。<br>当时East Village有很多坏了的建筑。他无法负担艺术支出，所以他从街上和这些破建筑里拿东西回来来作画。他会带回来门，木门，在上面画画。<br>我们会争吵，我工作并支持我们两个人，但他不做贡献。他总会用自己会马上成名变富有，回来照顾我的保证来回答我的担忧，这就是争论结束了。我还能说什么呢？<br>巴斯奎特的第一幅画是卖给Debbie Harry (美国女歌手，最令人知晓的身份是在神威新浪潮（摇滚乐的一种分支风格）乐团金发美女blondie的主唱) from Blondie（金发美女，活跃于1970年代后期著名美国朋克摇滚乐团，曲风狂野奔放）巴斯奎特出现在了Blondie的Rapture这首歌的mv里，Fab 5 Freddie出现在这首歌的歌词里（具体看视频27分左右）。卖了很多钱，我们去中餐馆搓了一顿，虽然只是普通餐馆，但也算是大餐了，因为之前太穷了。我们很高兴，很骄傲。</p><h2 id="第一次展览-27分50秒"><a href="#第一次展览-27分50秒" class="headerlink" title="第一次展览 27分50秒"></a>第一次展览 27分50秒</h2><p>New York, New Wave， 1981<br>Diego Cortez 是策展人，不在乎展出的这些艺术家是否专业，只在乎建立一个描绘场景的元素的社会学。<br>巴斯奎特被给予了主展墙。有哈林。</p><p>Annina Nosei (画廊女老板): 巴斯奎特的作品尤其精妙复杂。使人立即产生兴趣的是他画中的新型视觉语言。</p><p>Andy Wahol 1965以后的独家经销商：这场展览里最好的作品之一是关于纽约城市景象的。有双子塔，还有顶部他发明的书写方式。使我想起Twombly (美国艺术家) 的作品。是我当时从Diego Cortez买来的15幅画中的一个。</p><p>Annina Nosei：没请求巴斯奎特来自己的美术展，他自己请求我要来我的美术馆。但我说，我的下一个展览和你的作品没什么关系，因为它叫“Public Address”。但他说”不，正好相反，我在这个展览里非常合适。“他坚持自己的观点以一种对他这个年龄来说非常复杂精妙的方式，他非常强硬，他展示的作品让我决定我美术馆的第二个部分要全部给他一个人。</p><p>Larry Gagosian (Art Dealer 画商)：走进Annina展览最后一个房间，（看到巴斯奎特的作品，其中有那副拍好几亿卖给前泽友作的那幅画）我头发立马竖起来了，就像触电了一样。<br>叫 <em>Skull（就是那幅拍卖上亿那个）的那幅几乎是解剖的（格雷书的影响！）</em> ，同同时有着凶狠的眼光。透视perspective、色彩color、强度intensity，不可思议的有力量。我又看了四五幅图。（ <em>有Irony of Negro Policeman 1981 显然和种族问题有关）</em> 。我从没见过这些作品，没听说过这个艺术家，我都不知道这个艺术家会在展览里，我什么都不知道。<br>Annina出来问候我，我说我好想买这些画，如果可以我要买三幅，加上折扣花了我9000美元买了三幅。她说你想不想见艺术家。我刚买了这三幅画我说当然。当我听到艺术家的名字（Jean-Michel Basquiat 我学法语知道，这名字确实很法国）时我以为我要见的是什么很老的法国佬。然后我看到这个黑人坐在她办公室里，发型爆炸，沾满涂料的牛仔裤，正在抽一个很大很肥的大麻烟卷。我们之间立马产生了一种默契/融洽。</p><p>从 <em>极简主义</em> 出来，下一代的巴斯奎特，把一切全改变了。</p><p>Annina：他没地方画很多画，所以他在我地下室画。</p><p>Suzanne Mallouk：他非常有生产力，就像有个朝九晚五的工作，每天早起去画画，然后晚上五六点回家。</p><p>Brett De Palma (Artist): France Klein, Robert Motherwell,巴斯奎特认识这些人即使他从没去过艺术学校.<br>巴斯奎特对Cy Twombly惊叹，（作品Apollo And The Artist 1975）。Twombly就在我工作的美术馆的这栋公寓楼里。巴斯奎特说：我现在就要见Twombly。我带他去找Twombly，Twombly开门，巴斯奎特准备进入公寓，然后Twombly的一个搭档上来说”他怎么到这来的？快让他出去！为什么他在这里？“我说”他想见Cy“ 搭档”不不不不，这不会发生。Brett，我要你立马把他弄出去。他有没有偷什么东西？“ <em>（这搭档显然是种族歧视，看到巴斯奎特是黑人就开始发疯了）</em></p><h2 id="一炮成名-34分左右"><a href="#一炮成名-34分左右" class="headerlink" title="一炮成名 34分左右"></a>一炮成名 34分左右</h2><p>艺术界很快流传开来说有个天才在Annina地下室作画</p><p>巴斯奎特被采访，Interview by Marion Busch in basement of Annina Nosei Gallery, 1982</p><p><em>Slave Auction 1982</em></p><p>地牢。。hhh<br>传言说巴斯奎特被Annina锁在地下室给她画画hhh。<br>Mick Jagger（滚石乐队创始人，主唱）会来地下室看画买画</p><p>巴斯奎特说如果自己是白人，大家就不会这么说，只会说自己是住在那。</p><p>Suzanne Mallouk：1981-82巴斯奎特相当高产，250 paintings，至少500 drawings， 工作时一直开着音乐，非常intuitive 直觉的。他会同时画很多幅画，可能画背景，画一条线，去另一幅画画点东西，再回来划掉点东西，写点字上去，是联系不断的动作，就像跳舞。几乎像是他在channelling something（在传送一些东西）。 Bird on Money 1981</p><p>::<em>No Wave music</em>:: (a short-lived  <a href="https://en.m.wikipedia.org/wiki/Avant-garde">avant-garde</a>  music and art scene that emerged in the late 1970s in downtown  <a href="https://en.m.wikipedia.org/wiki/New_York_City">New York City</a> )<br>::<em>avant-garde writing and poetry</em>::<br>::<em>cut-up technique William Burroughs</em>::<br>切片、重构书写进入新的结构 （Museum Security 1983）</p><p>zeigeist 时代精神 在街头上。<br>hip-hop 街舞<br>巴斯奎特也想把他这代人的能量传递到他的作品里和美术馆里</p><p>巴斯奎特的作品中有很多重要的创新在70年代末80年代初的艺术、音乐、写作的结构中</p><p>巴斯奎特作品新颖但是又有现代艺术的古典主义（classicism of modern art）</p><p>巴斯奎特无法形容自己的作品，大部分时间就是自动的</p><p>astonishing directness</p><p>Aninna给巴斯奎特办了单人展，很快作品卖光<br>成名，赚了很多钱，挥霍的party。就像巴斯奎特预想的一样，他很高兴。</p><p>有人直接在作品未完成时就来工作室看，但是希望作品能符合他们家沙发，这是巴斯奎特很不满的。</p><p>巴斯奎特在Crosby Street上作画，有收藏家来找他，给他带KFC（影射黑人爱吃炸鸡，这是一个典型的种族歧视行为）。他感觉很受冒犯，直接叫这些收藏家滚蛋，不会卖任何东西给他们，从二楼把这些KFC倒到这些人头上。</p><p>他在画上写 Not for sale。很高兴作品能卖出去，但很反感自己作品成为了商品。他一生都在这个dichotomy二分法中挣扎。</p><p>巴斯奎特与钱的关系<br>完全不在意，挥霍。他带着很多钱回到East Village，挥霍。<br>很多对巴斯奎特成名的嫉妒和仇恨，压力很大。巴斯奎特和之前这些艺术家朋友的友谊结束了。带走了很多快乐。</p><p>Larry Gagosian (Art Dealer 画商)：在LA给巴斯奎特办展览，头等舱<br>巴斯奎特带了一堆朋友，突出的有Rammellzee (Visual Artist) 奇装异服<br>巴斯奎特上休息室第一件事就是掏出大麻high<br>空姐看到这种情景大吃一惊、目瞪口呆<br>巴斯奎特淡定<br>还好没被抓，安全到达LA</p><p>作品 <em>L.A. Painting 1982</em> 46分处</p><p>Brett：自从和Gagosian一起去了LA之后，巴斯奎特就成了阔佬一族，之后又去了全欧洲，还有日本。</p><p>巴斯奎特才21岁，凭艺术成为百万富翁指日可待。</p><p>因为出租车不给他停车（估计是因为他是黑人），所以他就坐limousines（那种超长的豪华轿车）</p><p>Gagosian：从没见过这么有天赋和个人魅力的黑人艺术家，有很多resentment (怨恨)，envy(嫉妒)，而且肯定有racist edge（种族主义）。<br>我记得我有个友好的艺术家，他去了一个收藏家家里的party，说他家又很多很棒的收藏，就是有个巴斯奎特把所有东西搞砸了。</p><p><em>Fun Gallery</em><br>他对于其他和他一样没能赚很多钱和名声的艺术家感到愧疚。</p><p>巴斯奎特涂鸦的语句来源于：真实生活，书籍，电视。<br>工作时听到这些话就写上去了。</p><p>解剖书是灵感来源。因为感觉就是喜欢。</p><p>格雷氏解剖学出现在他的各种作品中,就像是他意象的Rosetta Stone（罗赛塔石碑），是他的字典。</p><p>Bruno Bischofberger (Art dealer): 求巴斯奎特一起办个展览。</p><p>他被直接付现金，付毒品。<br>这个时代买卖艺术品不用通过律师签合同。</p><p>他的工作室放着很多现金、可卡因、其他各种毒品。</p><p>Bruno Bischofberger (Art dealer): 成为了巴斯奎特全球独家画商，给他付了很多现金，因为他喜欢，当时这样做并不违法。<br>巴斯奎特最爱的美术馆：Mary Boone（这是个人，女，Gallerist画廊主）<br>他想和Mary Boone一起办展不是因为Mary Boone很火辣，而是因为他想成为之前Mary Boone展览的一些艺术家的一部分。<br>Mary Boone有担心巴斯奎特是不是会很快过气。</p><h2 id="与Andy-Warhol-52分钟左右"><a href="#与Andy-Warhol-52分钟左右" class="headerlink" title="与Andy Warhol 52分钟左右"></a>与Andy Warhol 52分钟左右</h2><p>Bruno Bischofberger (Art dealer) 和Andy Warhol很熟，介绍了巴斯奎特<br>巴斯奎特要Bruno给他和Andy拍了照。然后没有要吃午饭，而是立即跑回去画画，画他和andy合照的肖像画（::<em>Dos Cabezas 1982</em>::），然后把画好的作品拿回来。大家都被震惊了。<br>Andy说画得真快真好。</p><p>这是Andy Warhol和巴斯奎特之前一切的开端。</p><p>Jean-Michel’s painting was really story telling in a really fresh way that I had never seen.<br>1983 在uptown办了个展。</p><p>1984年Mary Boone同意让巴斯奎特来办展。因为Brice Marden 和 Julian Schnabel很欣赏巴斯奎特的作品。<br>在这巴斯奎特的第一次展览很棒，来了很多人。一群新的收藏家来了，大部分作品以25000或以下被出售，对于年轻艺术家第一次展览算是正常。</p><h2 id="作为黑人-57分40秒"><a href="#作为黑人-57分40秒" class="headerlink" title="作为黑人 57分40秒"></a>作为黑人 57分40秒</h2><p>巴斯奎特的妹妹(Lisane)：意识到哥哥作为一个艺术家很成功。巴斯奎特被看作是一个很成功的艺术家，而不是一个黑人艺术家，是很重要的。他也与他的黑人外表、黑人属性紧密联系，因为他就是个黑人。</p><p>巴斯奎特：很多人在艺术上被忽略了。黑人从来没有被切实地描绘过，甚至没有在现代艺术中被足够描绘。</p><p>巴斯奎特作品：<em>Undiscovered Genius Of The Mississippi Delta 1983</em></p><p>巴斯奎特不愿意自己被看作一个黑人艺术家。很好理解，就像Louise Bourgeois（法裔美国艺术家）不想被看作一个女性艺术家一样。还有很多艺术家是同性性取向的，也不希望被看作同性恋艺术家。<br>任何一个艺术家如果被认定身份是某一社会团体的一员，就会发现自己被限制了自由，被限制了自己创作中的理解和兴趣。</p><p>巴斯奎特作品：<em>Hollywood Africans 1983</em> <em>All Colored Cast 1982</em><br><em>Gran Espectaculo (History of Black People) 1983</em></p><p>巴斯奎特在玩一个很微妙的游戏：一方面给人们展示他们极大忽略、同时也是大多人所害怕的一个世界（黑人的世界）；另一方面doing it in idiom (（写作、音乐、艺术等的）典型风格) which was informed by the grand tradition (被大传统所影响). （另一方面又用被大传统所影响的艺术风格来做这件事。）关于什么是大传统，见<a href="http://www.cctv.com/tvguide/tvcomment/tyzj/zjwz/4143.shtml">专家文章—薛艺兵</a>。</p><p>巴斯奎特的作品尖叫着革命性的意图，在于它庆祝谁、补助谁、嘉奖谁，它会把谁在文化和历史上的经历同时当作英雄的、帝王的/豪华的还有gutbucket（(of jazz or blues) raw and spirited in style.）完全拥抱。</p><p>巴斯奎特作品：<em>St Joe Louis Surrounded by Snakes 1982</em></p><p>说出“我不想被当作一个黑人/美国艺术家”背后是有很复杂的原因的。<br>正是由于某一种悲剧，::<em>Jim Crow laws （吉姆·克勞法，种族隔离）, lynching（黑人动用私刑）, and the civil rights</em>:: 才使得巴斯奎特的作品有这样的影响力，这种悲剧仍旧还是关于黑人的，海地的，波多黎各的，布鲁克林的。</p><p>巴斯奎特的作品中充满着能量和引用(reference to)指向的正是那些使艺术世界吓出屎的东西。他们想要这些东西，因为它们很刺激，但是他们如果这些东西是装在一个包裹里，由一个想让他们更不舒服的传递者（就是巴斯奎特）带来的，那他们就不想要了。</p><p>::<em>Michael Stewart的死</em>::引发的骚乱继续。<br>（<em>Michael Jerome Stewart</em> (May 9, 1958,[1]  <a href="https://en.m.wikipedia.org/wiki/Brooklyn">Brooklyn</a> ,  <a href="https://en.m.wikipedia.org/wiki/New_York_(state)">New York</a>  – September 15, 1983,  <a href="https://en.m.wikipedia.org/wiki/Manhattan">Manhattan</a> , New York) was an African-American man who received recognition after his death following an arrest by  <a href="https://en.m.wikipedia.org/wiki/New_York_City_Transit_Police">New York City Transit Police</a>  for writing graffiti in soft tip marker/or using aerosol can on a  <a href="https://en.m.wikipedia.org/wiki/New_York_City_Subway">New York City Subway</a>  wall at the  <a href="https://en.m.wikipedia.org/wiki/First_Avenue_(BMT_Canarsie_Line)">First Avenue</a>  station.[2] 又是一个非洲裔美国人被警察打死的故事，很应景，他在地铁站涂鸦被拘捕然后就被警察打死了。家属起诉说他是被警察打死的，警察不承认。）</p><p>Lower East side的艺术家们都认识Michael Stewart，他模仿巴斯奎特，发型都学巴斯奎特。</p><p>Suzanne Mallouk：我和Michael是浪漫朋友，我当时已经不和巴斯奎特在一起了。</p><p>案发当时巴斯奎特在与Paige Powell（Interview （Andy Warhol办的杂志）photographer）约会，本来会玩一玩跳跳舞，结果巴斯奎特听到Michael死讯立马要走，一起回到了Paige Powell的公寓。::<em>巴斯奎特整晚都在画骷髅头skulls，对这件事感到非常的愤怒。</em>::他对Paige Powell说“你是白人，你永远理解不了。你想象不了，你甚至不能谈论这个事情。这种事情太深奥了。”<br>巴斯奎特非常害怕，因为死的人也可能是他。</p><p>Suzanne Mallouk：我和Michael很亲近，我相信Michael是被警察谋杀的。<br>Maripol (Downtown 81 writer)：我恨暴力，我不知道为什么警察要杀他，但这些警察别想就这样算了，这是肯定的。</p><p>Madonna（麦当娜）：Michael不只是每个人的好朋友，他被毫无知觉地谋杀了。</p><p>麦当娜，哈林，一些美术馆为Michael Stewart的法律辩护给钱，Suzanne去找巴斯奎特要钱，然后巴斯奎特很害怕，如果自己给了钱就会牵扯到这件事里，会被警察找上门。::<em>巴斯奎特一直说“It could have been me. 这本可能发生在我身上” 一直说。</em>::<br>没有一个反对white supremacy（白人至上主义）的人会成为赢家。<br><em>James Brown</em> (an American singer, songwriter, dancer, musician, record producer and bandleader. 黑人), <em>Nina Simone</em> (Eunice Kathleen Waymon, known professionally as Nina Simone, was an American singer, songwriter, musician, arranger, and civil rights activist. 黑人) ::<em>这些人也有恐惧、害怕被定义为反权威主义(anti-authoritarian)，激进的黑人艺术家 (radical black artists).</em>::<br>::<em>有这种焦虑，你（黑人艺术家）成功的程度是取决于白人观众的。</em>::</p><p>为了回应Michael的死亡，巴斯奎特画了一幅画叫做::<em>Defacement 1983 外表损坏</em>::<br>这么diaristic日记体的一个画家，他在这个事件中看到了自己。He saw the potential for his own annihilation at the hands of authority. (他看到了他自己被权威annihilation（覆灭）的潜在可能。)</p><p>妹妹(Lisane)：死亡的Michael本可能是巴斯奎特，这很吓人。而且这种很可怕的事情还在继续，年轻的黑人继续被杀、被这样对待，我知道这深深影响了巴斯奎特。</p><p>巴斯奎特有很真实的恐惧，他不是真正被允许进入因为这是一个大部分白人、富裕/丰富的世界。</p><p>1980年代初爆发的艺术市场。<br>纽约时报周日杂志（New York Times Sunday magazine）写一篇关于这个的文章。让摄影师去给巴斯奎特拍照。巴斯奎特故意不穿鞋，是在讽刺。但是杂志编辑不懂这个讽刺（我也不太懂），还让摄影师叫他穿上鞋。还让Mary Boone叫巴斯奎特穿鞋，Mary Boone说他是个成年人，要是他不穿鞋，就说明他不想穿！</p><p>这是巴斯奎特最巅峰的时刻。他在杂志上的这个形象非常非常好，人们对形象记得是最清楚的，对形象比其他东西都记得更深刻。<br>这是巴斯奎特的突破，他自己知道，他知道自己成功了。他很自豪，他跑出去买了几堆几堆的New York Times（买了好多有自己照片的杂志hhh）。Andy Warhol就在他旁边读这个杂志，被这个震撼到了。他也想上封面。</p><p>巴斯奎特的父亲决定在布鲁克林的家和巴斯奎特、Andy Warhol还有Paige Powell一起吃晚饭。</p><p>当时Andy Warhol算是世界上最有名的艺术家<br>巴斯奎特有了和ANdy Warhol一起创作的机会。</p><p>这种合作是前所未有的，两位艺术巨人，两个世代的人。<br>Andy Warhol对巴斯奎特是很大的影响。Andy不吸毒。<br>Andy尝试让巴斯奎特戒毒，也许是在自我救赎，在那些The Factory（Andy工作室）的感到Andy一直在push别人的人看来。</p><p>Andy像父亲一般，但一直有对巴斯奎特的嫉妒和竞争。<br>艺术上的父亲<br>合作作品，有竞争</p><p><em>Clear Boy</em><br>巴斯奎特说服Andy重新用手画，Andy已经23年只用silk screen丝网印刷作画。<br>而巴斯奎特用了丝网印刷，比如在两个香蕉上用了。<br>所以他们交换了作画方法。</p><h2 id="与Andy-Warhol合作-70分35秒"><a href="#与Andy-Warhol合作-70分35秒" class="headerlink" title="与Andy Warhol合作  70分35秒"></a>与Andy Warhol合作  70分35秒</h2><p>1985年第一次合作展览。</p><p>Michael Halsband (Photographer) : 巴斯奎特很喜欢我的“Klaus Nomi” 的肖像。我才意识到这是我5年前的作品了。给Andy和巴斯奎特的这次展览拍海报。<br>本来Andy找了Robert Maplethorpe拍，但是巴斯奎特说坚持要我拍。</p><p>巴斯奎特与Andy在一起的状态非常的舒服，他们之间有非常难得的默契，Andy和其他任何人都没有，非常棒。</p><p>合作的作品：<br><em>Crocodile 1984/1985</em><br>Andy花了个大的牛排，巴斯奎特把牛排变成了雪山，在上面花了滑雪的人，还在底部画了条鳄鱼。</p><p><em>Untitled (50 Dentures) 1984</em><br>非常有名的很大的假牙和头</p><p>非常伟大的展出。<br>Andy是60-80年代的伟大艺术大师，把巴斯奎特当作朋友，现在全世界将看到他们的合作作品，这些画在当时太过激进了，就算放在现在也太过激进，世界还没准备好，当时反响并不是太好。</p><p>展览开幕后的周末，巴斯奎特读了纽约时报关于展览的评论，读完后他的心情崩溃了，非常沮丧。他被描绘为Andy的吉祥物，只是被Andy拿来用的工具人。</p><p>巴斯奎特对自己被称为Andy的吉祥物感到非常被冒犯，由于他已经有点名气了，他感觉自己在开倒车（倒退）。</p><p>巴斯奎特对这件事很艰难，他说自己永远不会再和Andy说话了，他与Andy结束了。</p><p>巴斯奎特开始对Andy有偏执狂和怀疑，感觉Andy就像一个吸血鬼，吸取年轻艺术家的新鲜血液，来注入他自己的生涯。</p><p>Andy一直想修复与巴斯奎特的关系，他担心巴斯奎特因为他们合作展览的评论自我毁灭，相遇巴斯奎特对话，但是巴斯奎特一直不接受。</p><p>巴斯奎特抛弃了Andy。他开始怀疑他自己，感觉对他的评论反响有一个转折。</p><p>巴斯奎特：我想保持reclusive隐遁一些，不要一直暴露在外面，被捧上去又扔下来，就像他们（艺术批评家）对大部分人（艺术家）做的那样。我想不出一个有名的艺术家是没有被他们这样对待的。</p><p>巴斯奎特知道自己作品的价值，一直知道，从不怀疑，直到他生命晚期因为吸了一些毒品变得很虚弱。</p><h2 id="Andy-Warhol死亡-77分39秒"><a href="#Andy-Warhol死亡-77分39秒" class="headerlink" title="Andy Warhol死亡 77分39秒"></a>Andy Warhol死亡 77分39秒</h2><p>1987年2月22号晚上，Andy Warhol逝世。<br>巴斯奎特到Indochine（一家餐厅），Jennifer (Stein) Vonholstein (Artist)是这里的服务员，巴斯奎特悲痛欲绝。他说自己永远没办法走过这一坎。歇斯底里地哭泣。Jennifer (Stein) Vonholstein (Artist)在工作，没法陪他。</p><p>巴斯奎特凌晨2点去找Suzanne Mallouk。我们给他开门，但他没上来。（啥意思）</p><p>巴斯奎特感到很愧疚，因为他抛弃了Andy。然后他真的吸毒上瘾了。</p><p>在关于毒品上的事情，巴斯奎特只听Andy的话。</p><p>Mary Boone：画商和艺术家的关系，本来就是你付给艺术家钱，他们怎么花不管你事（全拿去买毒品），但是现在觉得如果艺术家伤害自己，还是应该去管一下的。</p><p>夏威夷 79分49秒<br>Larry Gagosian给巴斯奎特在夏威夷租了个房子<br>Paige有时陪他<br>巴斯奎特在夏威夷很快乐，也不吸很多毒。<br>就像是避难所。</p><h2 id="死亡、骷髅"><a href="#死亡、骷髅" class="headerlink" title="死亡、骷髅"></a>死亡、骷髅</h2><p>巴斯奎特的画中又很多死人的头、骷髅、很多脸后面有骨骼结构。<br>一方面仅仅来源于格雷氏解剖学，另一方面是对死亡的暗示，如果不是死亡的愿望。</p><p>很多伟大的艺术家，都非常清楚他们自己的死亡，知道生命力与不可避免的死亡之间的冲突。这也是巴斯奎特的核心。</p><p>巴斯奎特作品：<em>Famous Negro 1981</em> <em>Untitled (Skull) 1983</em> <em>Poison Oasis 1981</em> <em>In This Case 1983</em></p><p>巴斯奎特画中的很多头骨、骨骼很大程度上都是关于kind of a symbolic gutting of black males in the American society (一种美国社会中黑人男性的符号化的本能/核心/要点)。</p><h2 id="最后的展览-去世"><a href="#最后的展览-去世" class="headerlink" title="最后的展览 去世"></a>最后的展览 去世</h2><p>巴斯奎特邀请了所有他的老朋友去他在Baghoomian的展览，在1988年。</p><p>巴斯奎特作品：<em>Eroica II 1988</em></p><p>巴斯奎特非常affectionate（有感情的、充满深情的）。<br>整个展览就像是他死亡的prophecy（预言）。</p><p>有一幅很大的画是在马上的死亡。<em>Riding with Death 1988</em></p><p>这幅作品毫无疑问是 an existential cry of some kind （某种关于存在的呐喊）。</p><p>妹妹（Lisane）：很艰难去看这幅作品。可以看出里面有很多痛苦。非常清晰、非常深切的想法进入到当时巴斯奎特内心所想的事情。</p><p>还有一幅很大的画上面写着”Man dies, man dies.” 这不只是对暑假结束的拥抱。就是个告别。</p><p>巴斯奎特的女管家打电话给Michael Halsband，说巴斯奎特非常虚弱，出汗，房间很热，没开空调，他口吐白沫。 让她叫911.</p><p>巴斯奎特死了。。。</p><p>吸毒过量。</p><h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>巴斯奎特的声音极有力量，神奇、令人震撼，即使今天也是。</p><p><em>Charlie Parker</em> (<em>Charles Parker Jr.</em> (August 29, 1920 – March 12, 1955), also referred to by his nicknames <em>Yardbird</em> or simply <em>Bird</em>, was an American  <a href="https://en.m.wikipedia.org/wiki/Jazz">jazz</a>   <a href="https://en.m.wikipedia.org/wiki/Saxophone">saxophonist</a>  and composer.)<br><em>Jimi Hendrix</em> (<em>James Marshall</em> &quot;<em>Jimi</em>&quot; <em>Hendrix</em> (born <em>Johnny Allen Hendrix</em>; November 27, 1942 – September 18, 1970) was an American rock guitarist, singer, and songwriter. )<br>这两位都是音乐家，都是黑人，都吸毒。毒品有浪漫的一面，in terms of 巴斯奎特与他的英雄的灵感之间的联系。</p><p>巴斯奎特的生涯超越了一般的生涯，成为了神话。</p><p>1988去世，才27岁。。</p><p>人们买的是他的整个神话，也买他的作品，</p><p>前泽友作拍卖。首次突破10亿美元。<br>世人知道他作品的价值通过这市场上的这个数值，更印证了我们都知道的-他对于美国艺术的遗产来说有多重要。</p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Courses</category>
-      
-      <category>Spring 2020</category>
-      
-      <category>ARTS1405</category>
-      
-      <category>Final Paper</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Arts</tag>
       
     </tags>
     
